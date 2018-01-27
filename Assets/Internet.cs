@@ -17,22 +17,50 @@ public class Internet : MonoBehaviour {
     [SerializeField]
     protected InternetTypes type;
     [SerializeField]
-    private float speed;
-    [SerializeField]
-    private Vector3 direction;
-    [SerializeField]
+    protected float speed;
+
     private Vector3 startPosition;
+    private Vector3 destination;
+
+    public virtual void Start()
+    {
+        //Update the location of the player
+        destination = GetPlayerLocation();
+
+        //Get the current position of the enemy
+        startPosition = transform.position;
+    }
 
     //Travel across the screen in the direction set
-    public virtual void Travel()
+    public void Travel()
     {
+
+        //Go toward the player!!!!!! 
+        Vector3 direction = (destination - startPosition).normalized;
+
+        //Change the position
+        Vector3 currentPosition = transform.position;
+        currentPosition.x += (direction.x * speed * Time.deltaTime);
+        currentPosition.y += (direction.y * speed * Time.deltaTime);
+        transform.position = currentPosition;
 
     }
 
-    //Destroy itself once it goes outside the camera bounds
-    public virtual void Destroy()
+    private Vector3 GetPlayerLocation()
     {
-
+        return Camera.main.transform.position;
     }
+
+    public int ChooseSource(int size)
+    {
+        return Random.Range(0, size);
+    }
+
+    public void Update()
+    {
+        Travel();
+    }
+
+
 
 }

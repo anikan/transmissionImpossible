@@ -14,20 +14,11 @@ public class Image : Media {
     private AudioClip sound;
 
 
-    void Start()
+    public override void Start()
     {
+        base.Start();
         mediaType = MediaTypes.image;
     }
 
-    //Travel across the screen in the direction set
-    public override void Travel()
-    {
 
-    }
-
-    //Destroy itself once it goes outside the camera bounds
-    public override void Destroy()
-    {
-
-    }
 }

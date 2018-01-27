@@ -15,18 +15,12 @@ public class Spawner : MonoBehaviour {
     private Messaging messagingPrefab;
 
     [Header("Sources")]
-    [SerializeField]
-    private string[] emailTexts;
-    [SerializeField]
-    private Sprite[] emailIcons;
-    [SerializeField]
-    private Sprite[] mediaImages;
-    [SerializeField]
-    private Sprite[] mediaVideos; //TODO: Need to figure out what type of object a video is
-    [SerializeField]
-    private string[] messagingTexts;
-    [SerializeField]
-    private Sprite[] messagingIcons;
+    public string[] emailTexts;
+    public Sprite[] emailIcons;
+    public Sprite[] mediaImages;
+    public Sprite[] mediaVideos; //TODO: Need to figure out what type of object a video is
+    public string[] messagingTexts;
+    public Sprite[] messagingIcons;
 
     // Update is called once per frame
     void Update()
@@ -34,22 +28,18 @@ public class Spawner : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.A))
         {
             Debug.Log("Create Email!");
-            Email obj = Instantiate(emailPrefab, Vector3.zero, Quaternion.identity, transform);
         }
         else if (Input.GetKeyDown(KeyCode.B))
         {
             Debug.Log("Create Media/Image!");
-            Image obj = Instantiate(imagePrefab, Vector3.zero, Quaternion.identity, transform);
         }
         else if (Input.GetKeyDown(KeyCode.C))
         {
             Debug.Log("Create Media/Video!");
-            Video obj = Instantiate(videoPrefab, Vector3.zero, Quaternion.identity, transform);
         }
         else if (Input.GetKeyDown(KeyCode.D))
         {
             Debug.Log("Create Instant Messaging!");
-            Messaging obj = Instantiate(messagingPrefab, Vector3.zero, Quaternion.identity, transform);
         }
     }
 }

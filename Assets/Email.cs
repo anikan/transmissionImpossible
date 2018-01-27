@@ -4,22 +4,37 @@ using UnityEngine;
 
 public class Email : Internet {
 
+    private Spawner spawner;
+    private SpriteRenderer image;
+
     //When an email is created
-    void Start()
+    public override void Start()
     {
+        base.Start();
+        Setup();
+
+        SetSources();
+
+    }
+
+    private void Setup()
+    {
+        spawner = GetComponentInParent<Spawner>();
+        image = GetComponent<SpriteRenderer>();
+
         type = InternetTypes.email;
     }
 
-    //Travel across the screen in the direction set
-    public override void Travel()
+    private void SetSources()
     {
 
-    }
+        int imgNum = ChooseSource(spawner.emailIcons.Length);
+        int textNum = ChooseSource(spawner.emailTexts.Length);
 
-    //Destroy itself once it goes outside the camera bounds
-    public override void Destroy()
-    {
+        Sprite img = spawner.emailIcons[imgNum];
+        string text = spawner.emailTexts[textNum];
 
+        image.sprite = img;
     }
 
 }
