@@ -2,22 +2,36 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Video : Media {
+public class Video : Internet {
 
-    [SerializeField]
-    private MediaTypes mediaType;
-
-    [SerializeField]
-    private Sprite image;
-
-    [SerializeField]
-    private AudioClip sound;
-
+    private Spawner spawner;
+    private SpriteRenderer image;
 
     public override void Start()
     {
         base.Start();
-        mediaType = MediaTypes.video;
+        Setup();
+
+        SetSources();
+
+    }
+
+    private void Setup()
+    {
+        spawner = GetComponentInParent<Spawner>();
+        image = GetComponent<SpriteRenderer>();
+
+        type = InternetTypes.video;
+    }
+
+    private void SetSources()
+    {
+
+        int imgNum = ChooseSource(spawner.mediaVideos.Length);
+
+        Sprite img = spawner.mediaVideos[imgNum];
+
+        image.sprite = img;
     }
 
 }

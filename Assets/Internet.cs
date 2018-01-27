@@ -8,7 +8,8 @@ public class Internet : MonoBehaviour {
     protected enum InternetTypes
     {
         email,
-        media,
+        image,
+        video,
         messaging
     }
 

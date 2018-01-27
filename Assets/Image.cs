@@ -4,20 +4,34 @@ using UnityEngine;
 
 public class Image : Media {
 
-    [SerializeField]
-    private MediaTypes mediaType;
-
-    [SerializeField]
-    private Sprite image;
-
-    [SerializeField]
-    private AudioClip sound;
-
+    private Spawner spawner;
+    private SpriteRenderer image;
 
     public override void Start()
     {
         base.Start();
-        mediaType = MediaTypes.image;
+        Setup();
+
+        SetSources();
+
+    }
+
+    private void Setup()
+    {
+        spawner = GetComponentInParent<Spawner>();
+        image = GetComponent<SpriteRenderer>();
+
+        type = InternetTypes.image;
+    }
+
+    private void SetSources()
+    {
+
+        int imgNum = ChooseSource(spawner.mediaImages.Length);
+
+        Sprite img = spawner.mediaImages[imgNum];
+
+        image.sprite = img;
     }
 
 

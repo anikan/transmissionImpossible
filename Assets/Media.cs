@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Media : Internet {
 
+    /*
     public enum MediaTypes
     {
         image,
@@ -16,5 +17,6 @@ public class Media : Internet {
         base.Start();
         type = InternetTypes.media;
     }
+    */
 
 }
