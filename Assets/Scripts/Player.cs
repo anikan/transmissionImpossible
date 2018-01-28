@@ -162,6 +162,7 @@ public class Player : MonoBehaviour {
             hitSource.Play();
 
             StartCoroutine(ScreenShake(enemy.damageValue));
+            Handheld.Vibrate();
 
             if (health > 0)
             {
@@ -179,7 +180,6 @@ public class Player : MonoBehaviour {
             //Death :<
             else
             {
-
                 //Play death effect, show restart screen.
 
                 //Show static and play full sound effect.
