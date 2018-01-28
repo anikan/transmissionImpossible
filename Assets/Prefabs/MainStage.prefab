@@ -188,6 +188,7 @@ GameObject:
   - component: {fileID: 4266011795282712}
   - component: {fileID: 20079963490685230}
   - component: {fileID: 124563816570277212}
+  - component: {fileID: 61042631221111286}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2557,7 +2558,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1064847455820388}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.02, y: -0.08, z: -0.984375}
+  m_LocalPosition: {x: 0, y: 26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4479407421678272}
@@ -2925,7 +2926,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1276350035461826}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.4839873, y: 1.6774776, z: -9.306036}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4479407421678272}
@@ -4530,6 +4531,31 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!61 &61042631221111286
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1084270173174754}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!61 &61073203089116648
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -5551,66 +5577,6 @@ MonoBehaviour:
   - clipName: Fiddles McGinty
     audioClip: {fileID: 8300000, guid: 849ddb3336e74564b9f58325e4f48ad8, type: 3}
     bpm: 174
-    bpmOffset: 0
-    volume: 1
-  - clipName: Who Likes To Party
-    audioClip: {fileID: 8300000, guid: 7c247bc529c7d5c4cae513a1eb1e4d65, type: 3}
-    bpm: 117
-    bpmOffset: 0
-    volume: 1
-  - clipName: Vegas Glitz
-    audioClip: {fileID: 8300000, guid: b744e42244df4d84fbb56c6fada95dd7, type: 3}
-    bpm: 92
-    bpmOffset: 0
-    volume: 1
-  - clipName: Ether Disco
-    audioClip: {fileID: 8300000, guid: 00a1b834f829d1641aaedd7e8bf64308, type: 3}
-    bpm: 120
-    bpmOffset: 0
-    volume: 1
-  - clipName: Digital Lemonade
-    audioClip: {fileID: 8300000, guid: 91028036be9b1a540bacded815da4787, type: 3}
-    bpm: 120
-    bpmOffset: 0
-    volume: 1
-  - clipName: Super Power Cool Dude
-    audioClip: {fileID: 8300000, guid: bdfcfa37b958e3b4fa8ccbbbf8e9f1c9, type: 3}
-    bpm: 110
-    bpmOffset: 0
-    volume: 1
-  - clipName: Inspired
-    audioClip: {fileID: 8300000, guid: b096b8c3f5ae7d14bb806760270164b5, type: 3}
-    bpm: 120
-    bpmOffset: 0
-    volume: 1
-  - clipName: What Is Love
-    audioClip: {fileID: 8300000, guid: cc0030695e1992e45b187430329dd036, type: 3}
-    bpm: 58
-    bpmOffset: 0
-    volume: 1
-  - clipName: EDM Detection Mode
-    audioClip: {fileID: 8300000, guid: efb5ac770da64c64cb770501410fe875, type: 3}
-    bpm: 128
-    bpmOffset: 0
-    volume: 1
-  - clipName: Son of a Rocket
-    audioClip: {fileID: 8300000, guid: 7484d7af2683b3140850dec5617c299d, type: 3}
-    bpm: 110
-    bpmOffset: 0
-    volume: 1
-  - clipName: Blown Away
-    audioClip: {fileID: 8300000, guid: 9ec7927298780154797ec3955a8e6717, type: 3}
-    bpm: 170
-    bpmOffset: 0
-    volume: 1
-  - clipName: Rocket
-    audioClip: {fileID: 8300000, guid: 10f9517cae9b7984b8268385aae422c5, type: 3}
-    bpm: 116
-    bpmOffset: 0
-    volume: 1
-  - clipName: Sandstorm
-    audioClip: {fileID: 8300000, guid: 318818cdb0a83884fa3247694f47800d, type: 3}
-    bpm: 136
     bpmOffset: 0
     volume: 1
 --- !u!114 &114848995500426978
