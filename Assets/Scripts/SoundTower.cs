@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SoundTower : MonoBehaviour {
+public class SoundTower : ScrollingSignal {
 
     public bool randomAudioClip = true;
     public bool randomColor = true;
@@ -10,15 +10,15 @@ public class SoundTower : MonoBehaviour {
     public GameObject outerFadePulse;
     public Color pulseColor = Color.red;
     public int audioClipIndex;
-    public float moveSpeed = 0.02f;
 
     private TowerAudioClip clip;
 
     private bool pulsing = true;
 
 	// Use this for initialization
-	void Start ()
+	protected override void Start ()
     {
+        base.Start();
 
         // TODO: Remove later. Towers shouldn't immediately initialize.
         InitializeTower();
@@ -70,8 +70,6 @@ public class SoundTower : MonoBehaviour {
         // Begin pulse.
         StartCoroutine(Pulse());
 
-        StartCoroutine(MoveDown());
-
     }
 
     // Begin playing clip audio.
@@ -85,19 +83,7 @@ public class SoundTower : MonoBehaviour {
         source.Play();
     }
 
-    public IEnumerator MoveDown()
-    {
 
-        while (true)
-        {
-
-            Vector3 pos = this.transform.position;
-            pos.y -= moveSpeed;
-            transform.position = pos;
-            yield return null;
-        }
-
-    }
 
     // Pulse a sprite to the beat of the song
     public IEnumerator Pulse()
