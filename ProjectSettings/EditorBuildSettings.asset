@@ -6,5 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/SignalScene.unity
+    guid: 350525161322cae489f082295fa03754
+  - enabled: 1
     path: Assets/Scenes/Internet.unity
     guid: 81dc70e99f0496e4cb8c48b6b87dd8b8

@@ -12,8 +12,8 @@ public class ZigzagSignal : MonoBehaviour {
     public float ySpeed = .1f;
     public float xSpeed = .1f;
 
-    bool horizontalMovement = false;
-    bool verticalMovement = false;
+    public bool horizontalMovement = false;
+    public bool verticalMovement = false;
 
 	// Use this for initialization
 	void Start () {
