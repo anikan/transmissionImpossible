@@ -21,22 +21,40 @@ public class Internet : EnemySignal {
     protected float speed;
     [SerializeField]
     protected AudioClip clip;
+    [SerializeField]
+    protected bool isManualDestination;
+    [SerializeField]
+    protected Vector3 manualDirection;
 
     private Vector3 startPosition;
     private Vector3 destination;
 
     public virtual void Start()
     {
-        //Update the location of the player
-        destination = GetPlayerLocation();
+        SetDestination();
 
         //Get the current position of the enemy
         startPosition = transform.position;
     }
 
+    private void SetDestination()
+    {
+        if (isManualDestination)
+        {
+            destination = manualDirection;
+        }
+        else
+        {
+            //Update the location of the player
+            destination = GetPlayerLocation();
+        }
+    }
+
     //Travel across the screen in the direction set
     public void Travel()
     {
+
+        SetDestination();
 
         //Go toward the player!!!!!! 
         Vector3 direction = (destination - startPosition).normalized;
@@ -51,7 +69,8 @@ public class Internet : EnemySignal {
 
     private Vector3 GetPlayerLocation()
     {
-        return Camera.main.transform.position;
+        return GameManager.instance.player.transform.position;
+        //return Camera.main.transform.position;
     }
 
     public int ChooseSource(int size)
