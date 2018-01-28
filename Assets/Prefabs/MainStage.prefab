@@ -2977,7 +2977,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1991209897326072}
   m_LocalRotation: {x: -0, y: -0, z: 0.70710665, w: 0.70710695}
-  m_LocalPosition: {x: -0.03, y: -8.35, z: 0}
+  m_LocalPosition: {x: -0.03, y: -8.29, z: 0}
   m_LocalScale: {x: 6.5875, y: 5.8340697, z: 1}
   m_Children: []
   m_Father: {fileID: 4266011795282712}
@@ -3674,7 +3674,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1239496873197148}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.76, y: 0.03, z: 0}
+  m_LocalPosition: {x: -9.3, y: 0.03, z: 0}
   m_LocalScale: {x: 13.762488, y: 26.617914, z: 1}
   m_Children: []
   m_Father: {fileID: 4266011795282712}
@@ -4170,7 +4170,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1051350642276618}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.64, y: 0.03, z: 0}
+  m_LocalPosition: {x: 8.183, y: 0.03, z: 0}
   m_LocalScale: {x: 11.512502, y: 25.645578, z: 1}
   m_Children: []
   m_Father: {fileID: 4266011795282712}
@@ -4196,7 +4196,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1075165540017396}
   m_LocalRotation: {x: -0, y: -0, z: 0.70710665, w: 0.70710695}
-  m_LocalPosition: {x: 0.09, y: 12.05, z: 0}
+  m_LocalPosition: {x: 0.09, y: 12.02, z: 0}
   m_LocalScale: {x: 14.05, y: 5.8340654, z: 1}
   m_Children: []
   m_Father: {fileID: 4266011795282712}
@@ -4653,7 +4653,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25, y: 0.25}
+  m_Size: {x: 0.15, y: 0.15}
   m_EdgeRadius: 0
 --- !u!64 &64490493490563318
 MeshCollider:
@@ -5460,6 +5460,7 @@ MonoBehaviour:
   pulseMaxRadius: 0.1
   pulseMinRadius: 0.026
   outerPulseDist: 0.3
+  activationDistanceFromStage: 8
   allClips:
   - clipName: Special Spotlight
     audioClip: {fileID: 8300000, guid: 9952c00e555669d4b88736ff51057574, type: 3}
