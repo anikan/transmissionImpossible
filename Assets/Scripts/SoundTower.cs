@@ -26,8 +26,10 @@ public class SoundTower : ScrollingSignal {
 	}
 
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
+
+        base.Update();
 
         float distanceFromStage = Vector3.Distance(transform.position, GameManager.instance.transform.position);
 

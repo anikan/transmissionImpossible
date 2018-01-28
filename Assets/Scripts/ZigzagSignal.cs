@@ -35,13 +35,12 @@ public class ZigzagSignal : MonoBehaviour {
 
         if (!verticalMovement)
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y + ySpeed * Time.deltaTime, transform.position.z);
+            transform.Translate(0, ySpeed * Time.deltaTime, 0);
         }
 
         if (!horizontalMovement)
         {
-            transform.position = new Vector3(transform.position.x + xSpeed * Time.deltaTime, transform.position.y, transform.position.z);
-
+            transform.Translate(xSpeed * Time.deltaTime, 0, 0);
         }
     }
 
@@ -54,14 +53,15 @@ public class ZigzagSignal : MonoBehaviour {
             //Move left.
             for (; currentXDelta > -maxDelta;  currentXDelta -= xSpeed * Time.deltaTime)
             {
-                transform.position = new Vector3(initPos.x + currentXDelta, transform.position.y, transform.position.z);
+                transform.localPosition = new Vector3(initPos.x + currentXDelta, transform.localPosition.y, transform.localPosition.z);
+
                 yield return null;
             }
 
             //Move right.
             for (; currentXDelta < maxDelta; currentXDelta += xSpeed * Time.deltaTime)
             {
-                transform.position = new Vector3(initPos.x + currentXDelta, transform.position.y, transform.position.z);
+                transform.localPosition = new Vector3(initPos.x + currentXDelta, transform.localPosition.y, transform.localPosition.z);
                 yield return null;
             }
         }
@@ -73,17 +73,17 @@ public class ZigzagSignal : MonoBehaviour {
 
         while (true)
         {
-            //Move left.
-            for (; currentYDelta > -maxDelta; currentYDelta -= xSpeed * Time.deltaTime)
+            //Move down.
+            for (; currentYDelta > -maxDelta; currentYDelta -= ySpeed * Time.deltaTime)
             {
-                transform.position = new Vector3(transform.position.x, transform.position.y + currentYDelta, transform.position.z);
+                transform.localPosition = new Vector3(transform.localPosition.x, initPos.y + currentYDelta, transform.localPosition.z);
                 yield return null;
             }
 
-            //Move right.
-            for (; currentYDelta < maxDelta; currentYDelta += xSpeed * Time.deltaTime)
+            //Move up.
+            for (; currentYDelta < maxDelta; currentYDelta += ySpeed * Time.deltaTime)
             {
-                transform.position = new Vector3(transform.position.x, transform.position.y + currentYDelta, transform.position.z);
+                transform.localPosition = new Vector3(transform.localPosition.x, initPos.y + currentYDelta, transform.localPosition.z);
                 yield return null;
             }
         }
