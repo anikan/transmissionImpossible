@@ -73,15 +73,15 @@ public class ZigzagSignal : MonoBehaviour {
 
         while (true)
         {
-            //Move left.
-            for (; currentYDelta > -maxDelta; currentYDelta -= xSpeed * Time.deltaTime)
+            //Move down.
+            for (; currentYDelta > -maxDelta; currentYDelta -= ySpeed * Time.deltaTime)
             {
                 transform.localPosition = new Vector3(transform.localPosition.x, initPos.y + currentYDelta, transform.localPosition.z);
                 yield return null;
             }
 
-            //Move right.
-            for (; currentYDelta < maxDelta; currentYDelta += xSpeed * Time.deltaTime)
+            //Move up.
+            for (; currentYDelta < maxDelta; currentYDelta += ySpeed * Time.deltaTime)
             {
                 transform.localPosition = new Vector3(transform.localPosition.x, initPos.y + currentYDelta, transform.localPosition.z);
                 yield return null;
