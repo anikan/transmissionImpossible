@@ -110,8 +110,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1876673343799888}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.12, y: 3.3042517, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.64, y: -3.19, z: -0.7480469}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4937451944393674}
@@ -127,7 +127,7 @@ Transform:
   m_GameObject: {fileID: 1198439618349858}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.08, y: 0.08, z: 0.08}
   m_Children:
   - {fileID: 4289391017838908}
   m_Father: {fileID: 4340850522843634}
@@ -166,7 +166,7 @@ AudioSource:
   Spatialize: 1
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 0.25
+  DopplerLevel: 0.3
   MinDistance: 0.4
   MaxDistance: 5
   Pan2D: 0
@@ -180,18 +180,24 @@ AudioSource:
     - serializedVersion: 2
       time: 0
       value: 1
-      inSlope: 0
-      outSlope: 0
+      inSlope: -3.3346713
+      outSlope: -3.3346713
       tangentMode: 0
     - serializedVersion: 2
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
+      time: 0.36954653
+      value: 0.3723755
+      inSlope: -0.8336678
+      outSlope: -0.8336678
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.9958801
+      value: 0.18840027
+      inSlope: -0.30011982
+      outSlope: -0.30011982
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -251,13 +257,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7169131ecb8982a4c8670a6fb303c61d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scrollOnStart: 1
   randomAudioClip: 1
   randomColor: 1
   pulseObject: {fileID: 1198439618349858}
   outerFadePulse: {fileID: 1180399413835776}
   pulseColor: {r: 1, g: 0, b: 0, a: 1}
   audioClipIndex: 0
-  moveSpeed: 0.02
 --- !u!212 &212496833777684030
 SpriteRenderer:
   m_ObjectHideFlags: 1

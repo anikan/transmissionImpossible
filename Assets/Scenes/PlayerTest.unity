@@ -152,74 +152,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 23490315715732144, guid: 30c5a0821a6d927418912ba2db213e51,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 8f5339d826b86124f91746b83f9198e4, type: 2}
-    - target: {fileID: 4220238719791498, guid: 30c5a0821a6d927418912ba2db213e51, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 96167278383834304, guid: 30c5a0821a6d927418912ba2db213e51,
-        type: 2}
-      propertyPath: m_Time
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 96167278383834304, guid: 30c5a0821a6d927418912ba2db213e51,
-        type: 2}
-      propertyPath: m_Parameters.colorGradient.key0.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 96167278383834304, guid: 30c5a0821a6d927418912ba2db213e51,
-        type: 2}
-      propertyPath: m_Parameters.colorGradient.key0.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 96167278383834304, guid: 30c5a0821a6d927418912ba2db213e51,
-        type: 2}
-      propertyPath: m_Parameters.colorGradient.key0.b
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114316562687886758, guid: 30c5a0821a6d927418912ba2db213e51, type: 2}
-    - {fileID: 82749462938049880, guid: 30c5a0821a6d927418912ba2db213e51, type: 2}
-    - {fileID: 81261840127729132, guid: 30c5a0821a6d927418912ba2db213e51, type: 2}
-    - {fileID: 50615436351326234, guid: 30c5a0821a6d927418912ba2db213e51, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30c5a0821a6d927418912ba2db213e51, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &237803780 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1923325551442656, guid: 30c5a0821a6d927418912ba2db213e51,
-    type: 2}
-  m_PrefabInternal: {fileID: 237803779}
---- !u!114 &237803781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 237803780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c53df8a050325fb4d91f03e7c1a2aac0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageValue: 1
---- !u!114 &237803782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 237803780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6230e98c254058a49a1292766242930b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxXDelta: 2
-  ySpeed: -1
-  xSpeed: 2
-  startGoingLeft: 1
 --- !u!1 &818717047
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,11 +368,6 @@ Prefab:
     - target: {fileID: 4089629943863504, guid: 0fc5323d50b0f6744a947d54598698b3, type: 2}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114784701532461508, guid: 0fc5323d50b0f6744a947d54598698b3,
-        type: 2}
-      propertyPath: invincibleBlinkTime
-      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0fc5323d50b0f6744a947d54598698b3, type: 2}

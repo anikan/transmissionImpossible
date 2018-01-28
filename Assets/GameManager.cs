@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour {
     public GameObject player;
 
     public float universalScrollSpeed = 1.5f;
+    public float gameTimeScale = 1.0f;
 
     public void Awake()
     {
@@ -30,6 +31,23 @@ public class GameManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+
+        Time.timeScale = gameTimeScale;
+
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+
+            gameTimeScale += 0.2f;
+
+        }
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            gameTimeScale -= 0.2f;
+        }
+        else if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            gameTimeScale = 1.0f;
+        }
+
 	}
 }
