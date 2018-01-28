@@ -43,11 +43,11 @@ public class ScrollingSignal : MonoBehaviour {
         startedScroll = true;
         while (true)
         {
-
+            float scrollAmount = Time.deltaTime * GameManager.instance.universalScrollSpeed;
             if (isScrolling)
             {
                 Vector3 pos = this.transform.position;
-                pos.y -= GameManager.instance.universalScrollSpeed;
+                pos.y -= scrollAmount;
                 transform.position = pos;
             }
             yield return null;
