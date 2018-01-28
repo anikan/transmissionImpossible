@@ -25,6 +25,8 @@ public class Player : MonoBehaviour {
 
     public Material staticPlaneMat;
 
+    public GameObject gameOverScreen;
+
 	// Use this for initialization
 	void Start () {
 
@@ -91,8 +93,6 @@ public class Player : MonoBehaviour {
 
     IEnumerator UpdateTrails()
     {
-        print(changePerSecond);
-
         while (health > 0)
         {
             //Shrink
@@ -135,20 +135,27 @@ public class Player : MonoBehaviour {
             {
                 //Play death effect, show restart screen.
 
+                //Show static and play full sound effect.
                 Color color = staticPlaneMat.GetColor("_Color");
 
                 color.a = 1;
+                
+                GetComponent<AudioSource>().volume = 1;
+         
 
                 staticPlaneMat.SetColor("_Color", color);
+
+                gameOverScreen.SetActive(true);
 
             }
 
             else
             {
-                //Set the static to be less transparent.
+                //Set the static to be less transparent and slightly louder.
                 Color color = staticPlaneMat.GetColor("_Color");
 
                 color.a = (1 - (health / maxHealth)) * maxStaticWhileAlive;
+                GetComponent<AudioSource>().volume = (1 - (health / maxHealth)) * maxStaticWhileAlive;
 
                 staticPlaneMat.SetColor("_Color", color);
             }

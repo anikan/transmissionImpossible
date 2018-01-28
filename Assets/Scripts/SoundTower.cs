@@ -10,6 +10,7 @@ public class SoundTower : MonoBehaviour {
     public GameObject outerFadePulse;
     public Color pulseColor = Color.red;
     public int audioClipIndex;
+    public float moveSpeed = 0.02f;
 
     private TowerAudioClip clip;
 
@@ -69,6 +70,8 @@ public class SoundTower : MonoBehaviour {
         // Begin pulse.
         StartCoroutine(Pulse());
 
+        StartCoroutine(MoveDown());
+
     }
 
     // Begin playing clip audio.
@@ -80,6 +83,20 @@ public class SoundTower : MonoBehaviour {
         source.loop = true;
         source.volume = clip.volume;
         source.Play();
+    }
+
+    public IEnumerator MoveDown()
+    {
+
+        while (true)
+        {
+
+            Vector3 pos = this.transform.position;
+            pos.y -= moveSpeed;
+            transform.position = pos;
+            yield return null;
+        }
+
     }
 
     // Pulse a sprite to the beat of the song
