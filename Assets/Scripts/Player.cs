@@ -6,17 +6,40 @@ public class Player : MonoBehaviour {
 
     public float playerSpeed = 5.0f;
     public float minDistance = .5f;
-    public float health = 5.0f;
-    public float timeToUpdateColliders = .1f;
 
+    public float maxHealth = 5.0f;
+    private float health;
+
+    public float timeBetweenPulses = .1f;
+
+    //Player trail variables
     public float maxWidth = 1.0f;
     public float minWidth = .1f;
-    public float changePerSecond = 5.0f;
+
+    public float maxChangePerSecond = 5.0f;
+    private float changePerSecond;
+
+    public float maxStaticWhileAlive = .5f;
+
+    public float maxScreenShakeAmount = .2f;
+
+    public Material staticPlaneMat;
 
 	// Use this for initialization
 	void Start () {
+
+        health = maxHealth;
+        changePerSecond = maxChangePerSecond;
+
         StartCoroutine(UpdateTrails());
-	}
+
+        //Set static to be completely transparent.
+        Color color = staticPlaneMat.GetColor("_Color");
+
+        color.a = 0;
+
+        staticPlaneMat.SetColor("_Color", color);
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -68,14 +91,19 @@ public class Player : MonoBehaviour {
 
     IEnumerator UpdateTrails()
     {
+        print(changePerSecond);
+
         while (health > 0)
         {
             //Shrink
             while (GetComponent<TrailRenderer>().widthMultiplier > minWidth)
             {
+
                 GetComponent<TrailRenderer>().widthMultiplier -= changePerSecond * Time.deltaTime;
                 yield return null;
             }
+
+            yield return new WaitForSeconds(timeBetweenPulses);
 
             //Grow
             while (GetComponent<TrailRenderer>().widthMultiplier < maxWidth)
@@ -84,7 +112,8 @@ public class Player : MonoBehaviour {
                 yield return null;
             }
 
-            yield return new WaitForSeconds(timeToUpdateColliders);
+            yield return new WaitForSeconds(timeBetweenPulses);
+
         }
 
     }
@@ -97,14 +126,53 @@ public class Player : MonoBehaviour {
         {
             health -= enemy.damageValue;
             //Play some damage effects!
-        }
+            //Slow down the pulsing.
+            changePerSecond = (health / maxHealth) * maxChangePerSecond;
 
-        if (health <= 0)
-        {
-            //Play death effect, show restart screen.
+            StartCoroutine(ScreenShake(enemy.damageValue));
 
+            if (health <= 0)
+            {
+                //Play death effect, show restart screen.
+
+                Color color = staticPlaneMat.GetColor("_Color");
+
+                color.a = 1;
+
+                staticPlaneMat.SetColor("_Color", color);
+
+            }
+
+            else
+            {
+                //Set the static to be less transparent.
+                Color color = staticPlaneMat.GetColor("_Color");
+
+                color.a = (1 - (health / maxHealth)) * maxStaticWhileAlive;
+
+                staticPlaneMat.SetColor("_Color", color);
+            }
         }
     }
 
+    private IEnumerator ScreenShake(float timeToShake)
+    {
+        float timeLeft = timeToShake;
 
+        Vector3 initCameraPos = Camera.main.transform.localPosition;
+
+        while (timeLeft > 0)
+        {
+            timeLeft -= Time.deltaTime;
+
+            float ratioLeft = timeLeft / timeToShake;
+
+            Vector3 shakeDelta = new Vector3(Random.Range(-ratioLeft * maxScreenShakeAmount, ratioLeft * maxScreenShakeAmount), Random.Range(-ratioLeft * maxScreenShakeAmount, ratioLeft * maxScreenShakeAmount), 0.0f);
+
+            Camera.main.transform.localPosition = initCameraPos + shakeDelta;
+
+            yield return null;
+        }
+        Camera.main.transform.localPosition = initCameraPos;
+    }
 }
