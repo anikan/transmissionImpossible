@@ -102,7 +102,6 @@ public class Internet : Damage {
     private Vector3 GetPlayerLocation()
     {
         return GameManager.instance.player.transform.position;
-        //return Camera.main.transform.position;
     }
 
     public int ChooseSource(int size)
@@ -112,17 +111,23 @@ public class Internet : Damage {
 
     public void OrientSelf()
     {
-        Debug.Log("OrientSelf");
         SetDestination();
-        //transform.right = (destination - startPosition).normalized;
         StartCoroutine(OrientCoroutine());
-        //state = State.running;
     }
 
     IEnumerator OrientCoroutine()
     {
         Quaternion startRotation = transform.rotation;
-        transform.right = (destination - startPosition).normalized * 0.1f * Time.deltaTime;
+        Vector3 direction = (destination - startPosition).normalized;
+        if (direction.x >= 0.0f)
+        {
+            transform.right = direction;
+        } else
+        {
+            transform.right = -direction;
+        }
+        //Debug.Log("direction of " + gameObject.name + " is " + direction);
+        //transform.right = direction;
         Quaternion endRotation = transform.rotation;
         transform.rotation = startRotation;
 
