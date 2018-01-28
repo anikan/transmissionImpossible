@@ -113,36 +113,36 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &219673334
+--- !u!1001 &9628315
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1381609501}
     m_Modifications:
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -2.07935
+      value: -2.73
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 7.3820314
+      value: -2.79
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.7480469
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.w
@@ -150,7 +150,297 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_RootOrder
-      value: 20
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (52)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &11591796 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 2077877354}
+--- !u!4 &28843654 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 759343213}
+--- !u!4 &30404102 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1155659599}
+--- !u!1001 &32902208
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 7.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (42)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &33796437 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 692938203}
+--- !u!4 &38018052 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1921420561}
+--- !u!4 &47072491 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1428585159}
+--- !u!1001 &67751210
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -7.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 57
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (49)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &72471971
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.8268065
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 9.740002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 44
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (21)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &73004713 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 744695875}
+--- !u!4 &114897229 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1529969457}
+--- !u!4 &144285361 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1066161092}
+--- !u!1001 &172873084
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (45)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &182621578 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4089629943863504, guid: 0fc5323d50b0f6744a947d54598698b3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1615356204}
+--- !u!4 &188639911 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1881787891}
+--- !u!4 &200567495 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1033008370}
+--- !u!1001 &219673334
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -32.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_Name
@@ -164,31 +454,31 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1381609501}
     m_Modifications:
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -3.19
+      value: -4.49
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 19.25
+      value: 1.42
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.7480469
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.w
@@ -196,7 +486,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_Name
@@ -205,630 +495,41 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
   m_IsPrefabParent: 0
---- !u!1001 &336633494
+--- !u!4 &260824379 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 67751210}
+--- !u!1001 &284000056
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1381609501}
     m_Modifications:
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.41
+      value: -2.81
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 22.06
+      value: 8.62
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.7480469
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_RootOrder
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_Name
-      value: AudioTower (17)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &386768148
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 2.53
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 13.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_Name
-      value: AudioTower (7)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &447917351
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -1.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 9.29
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_Name
-      value: AudioTower (2)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &519485480
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.78
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 20.22
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_RootOrder
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_Name
-      value: AudioTower (20)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &574763460
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -0.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 12.89
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_Name
-      value: AudioTower (6)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &681492215
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 7.3820314
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_Name
-      value: AudioTower (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &692938203
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.44
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 9.27
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_Name
-      value: AudioTower (3)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &824809573
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.62
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 21.93
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_RootOrder
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_Name
-      value: AudioTower (18)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &1033008370
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 18.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_RootOrder
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_Name
-      value: AudioTower (12)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &1066161092
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -3.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 21.26
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_RootOrder
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_Name
-      value: AudioTower (16)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &1155659599
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -1.76
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 15.96
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_Name
-      value: AudioTower (11)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &1381218232
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -0.94
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 11.26
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_Name
-      value: AudioTower (4)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &1439588932
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4340850522843634, guid: 9ddecd1acfa938f4a96dc0f58888fb6f, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.0945653
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: 9ddecd1acfa938f4a96dc0f58888fb6f, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 33.95
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: 9ddecd1acfa938f4a96dc0f58888fb6f, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -8.579438
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: 9ddecd1acfa938f4a96dc0f58888fb6f, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: 9ddecd1acfa938f4a96dc0f58888fb6f, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: 9ddecd1acfa938f4a96dc0f58888fb6f, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: 9ddecd1acfa938f4a96dc0f58888fb6f, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: 9ddecd1acfa938f4a96dc0f58888fb6f, type: 2}
-      propertyPath: m_RootOrder
-      value: 23
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 9ddecd1acfa938f4a96dc0f58888fb6f, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &1467898970
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 3.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 23.42
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.w
@@ -840,41 +541,41 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_Name
-      value: AudioTower (21)
+      value: AudioTower (25)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
   m_IsPrefabParent: 0
---- !u!1001 &1545425495
+--- !u!1001 &291302183
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1381609501}
     m_Modifications:
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.97
+      value: -4.28
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 14.41
+      value: 0.52
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.7480469
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.w
@@ -882,7 +583,2130 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 62
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (54)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &292531782 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1664166323}
+--- !u!4 &314889446 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 717141038}
+--- !u!1001 &332937474
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -9.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (48)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &336633494
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.7768066
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4.024658
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &368981439 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 332937474}
+--- !u!1001 &370079511
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 14.360001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (25)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &386768148
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.1631933
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -4.9653416
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &409978862
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.1168065
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 15.080002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (27)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &447917351
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.8168068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -8.745341
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &467976841 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1545425495}
+--- !u!4 &472516620 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 872425016}
+--- !u!1001 &477232617
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -23.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (35)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &544789066
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 9.4146595
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (32)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &552765361 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1693114008}
+--- !u!1001 &574763460
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.6968067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -5.145341
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &588775695 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 9628315}
+--- !u!4 &622780605 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1467898970}
+--- !u!1001 &629054091
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.3899999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -15.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (39)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &643276343 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 409978862}
+--- !u!4 &661434744 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1215488679}
+--- !u!4 &662724196 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1590123708}
+--- !u!4 &666327772 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 447917351}
+--- !u!4 &678087504 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 172873084}
+--- !u!1001 &681492215
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.6331934
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -10.65331
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &691432837
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -15.139999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (40)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &692938203
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -8.765341
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &706535764 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1616709966}
+--- !u!1001 &717141038
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 12.330002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 49
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (24)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &736230100
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.1668066
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.970001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &744695875
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (44)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &759306466 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1275610656}
+--- !u!1001 &759343213
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -4.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 59
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (51)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &769534458 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 691432837}
+--- !u!4 &769848258 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 824809573}
+--- !u!1001 &824809573
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.7468066
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.894659
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &838010534
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -4.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (47)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &842747138 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1381218232}
+--- !u!4 &866525939 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 838010534}
+--- !u!1001 &872425016
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.06319332
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.5746593
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (22)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &895781132 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 222201473}
+--- !u!1001 &906811602
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -29.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (26)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &909586707
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.3468065
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 15.09466
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (28)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &917388614
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 11.394659
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (31)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &918779851
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -4.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 63
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (55)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &931439686 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 2056907893}
+--- !u!4 &934459614 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 918779851}
+--- !u!1001 &992424961
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.47999954
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 69
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (61)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &992424962 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 992424961}
+--- !u!1001 &1033008370
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1036007327 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 284000056}
+--- !u!1001 &1063438514
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.2968066
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 14.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (26)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1066161092
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -4.3768067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.224659
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1088048513 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 681492215}
+--- !u!4 &1148660999 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 477232617}
+--- !u!1001 &1155659599
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.1268067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2.0753412
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1193429083
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (20)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1215488679
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 61
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (53)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1226273486 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1406227655}
+--- !u!1001 &1275610656
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.08319342
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 10.360001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (23)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1329638529 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1548067326}
+--- !u!4 &1332714306 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 544789066}
+--- !u!4 &1342610917 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 72471971}
+--- !u!1001 &1346061276
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 15.09466
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (29)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1363939652 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1740583467}
+--- !u!4 &1366851247 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 736230100}
+--- !u!4 &1379604692 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 629054091}
+--- !u!1001 &1381218232
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.3068066
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -6.775341
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1381609500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1381609501}
+  m_Layer: 0
+  m_Name: AudioTowers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1381609501
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1381609500}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.3668066, y: 39.8, z: 0.7480469}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1363939652}
+  - {fileID: 1088048513}
+  - {fileID: 666327772}
+  - {fileID: 33796437}
+  - {fileID: 842747138}
+  - {fileID: 552765361}
+  - {fileID: 2045941544}
+  - {fileID: 1595368697}
+  - {fileID: 467976841}
+  - {fileID: 38018052}
+  - {fileID: 931439686}
+  - {fileID: 30404102}
+  - {fileID: 200567495}
+  - {fileID: 706535764}
+  - {fileID: 188639911}
+  - {fileID: 895781132}
+  - {fileID: 144285361}
+  - {fileID: 1994714730}
+  - {fileID: 769848258}
+  - {fileID: 1585396064}
+  - {fileID: 622780605}
+  - {fileID: 472516620}
+  - {fileID: 1036007327}
+  - {fileID: 1550029631}
+  - {fileID: 1788025073}
+  - {fileID: 1623027715}
+  - {fileID: 1724545625}
+  - {fileID: 662724196}
+  - {fileID: 1332714306}
+  - {fileID: 1534772994}
+  - {fileID: 2141229304}
+  - {fileID: 1668340026}
+  - {fileID: 1148660999}
+  - {fileID: 1844706156}
+  - {fileID: 2000621847}
+  - {fileID: 1329638529}
+  - {fileID: 769534458}
+  - {fileID: 1379604692}
+  - {fileID: 2026966503}
+  - {fileID: 1437086912}
+  - {fileID: 47072491}
+  - {fileID: 73004713}
+  - {fileID: 678087504}
+  - {fileID: 1342610917}
+  - {fileID: 1499901523}
+  - {fileID: 292531782}
+  - {fileID: 866525939}
+  - {fileID: 759306466}
+  - {fileID: 314889446}
+  - {fileID: 1491257133}
+  - {fileID: 2106996755}
+  - {fileID: 1414030524}
+  - {fileID: 643276343}
+  - {fileID: 11591796}
+  - {fileID: 1366851247}
+  - {fileID: 368981439}
+  - {fileID: 260824379}
+  - {fileID: 114897229}
+  - {fileID: 28843654}
+  - {fileID: 588775695}
+  - {fileID: 661434744}
+  - {fileID: 1584733997}
+  - {fileID: 934459614}
+  - {fileID: 1696428916}
+  - {fileID: 1226273486}
+  - {fileID: 1705037848}
+  - {fileID: 1865964586}
+  - {fileID: 2092411958}
+  - {fileID: 992424962}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1406227655
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -7.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (57)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1414030524 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1063438514}
+--- !u!1001 &1428585159
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (43)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1437086912 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1930912517}
+--- !u!1001 &1439588932
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 182621578}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: 9ddecd1acfa938f4a96dc0f58888fb6f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.11456527
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: 9ddecd1acfa938f4a96dc0f58888fb6f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 74.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: 9ddecd1acfa938f4a96dc0f58888fb6f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -7.595063
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: 9ddecd1acfa938f4a96dc0f58888fb6f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: 9ddecd1acfa938f4a96dc0f58888fb6f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: 9ddecd1acfa938f4a96dc0f58888fb6f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: 9ddecd1acfa938f4a96dc0f58888fb6f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: 9ddecd1acfa938f4a96dc0f58888fb6f, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 9ddecd1acfa938f4a96dc0f58888fb6f, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1467898970
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 11.864658
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (21)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1491257133 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1703293003}
+--- !u!4 &1499901523 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1193429083}
+--- !u!1001 &1529969457
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -5.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 58
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (50)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1534772994 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 906811602}
+--- !u!1001 &1545425495
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.3368068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3.6253414
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_Name
@@ -891,6 +2715,118 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1548067326
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -18.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (38)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1550029631 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1346061276}
+--- !u!4 &1584733997 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 291302183}
+--- !u!4 &1585396064 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 219673334}
+--- !u!1001 &1590123708
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 13.374659
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (30)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1595368697 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 386768148}
 --- !u!1001 &1615356204
 Prefab:
   m_ObjectHideFlags: 0
@@ -938,31 +2874,573 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1381609501}
     m_Modifications:
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -2.48
+      value: -3.8468065
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 17.59
+      value: -0.4453411
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.7480469
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1623027715 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1899265694}
+--- !u!1001 &1643941616
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -18.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (37)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1664166323
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (46)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1668340026 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1842017736}
+--- !u!1001 &1693114008
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -6.865341
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1696428916 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1873076619}
+--- !u!1001 &1703293003
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.8568068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 10.720001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (22)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1705037848 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1739063814}
+--- !u!4 &1724545625 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 917388614}
+--- !u!1001 &1739063814
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -9.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 66
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (58)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1740583467
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.4461565
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -10.65331
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1749319055
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -26.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (33)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1788025073 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 909586707}
+--- !u!1001 &1842017736
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -23.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (34)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1844706156 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1973773931}
+--- !u!1001 &1865964585
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.9900017
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 67
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (59)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1865964586 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1865964585}
+--- !u!1001 &1873076619
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -5.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (56)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1881787891
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.w
@@ -974,141 +3452,53 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_Name
-      value: AudioTower (13)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &1693114008
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.91
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 11.17
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_Name
-      value: AudioTower (5)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &1740583467
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -2.07935
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 7.3820314
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &1881787891
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -0.74
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 19.51
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
-      propertyPath: m_Name
       value: AudioTower (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1899265694
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.9768066
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 15.154657
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (27)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
@@ -1118,31 +3508,189 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1381609501}
     m_Modifications:
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 2.09
+      value: 0.64
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 15.05
+      value: -3.19
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.7480469
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1930912517
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -15.139999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (41)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1973773931
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (36)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1994714730 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 336633494}
+--- !u!4 &2000621847 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1643941616}
+--- !u!4 &2026966503 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 32902208}
+--- !u!4 &2045941544 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 574763460}
+--- !u!1001 &2056907893
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.5453415
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.w
@@ -1154,41 +3702,41 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_Name
-      value: AudioTower (9)
+      value: AudioTower (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
   m_IsPrefabParent: 0
---- !u!1001 &2056907893
+--- !u!1001 &2077877354
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1381609501}
     m_Modifications:
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.19
+      value: 1.4131933
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 16.49
+      value: 6.59
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.7480469
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_LocalRotation.w
@@ -1196,12 +3744,73 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
       propertyPath: m_Name
-      value: AudioTower (10)
+      value: AudioTower (14)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &2092411957
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381609501}
+    m_Modifications:
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.7480469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 68
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876673343799888, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+      propertyPath: m_Name
+      value: AudioTower (60)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e15bfc662aad6154a9f5d7d005a513eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &2092411958 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 2092411957}
+--- !u!4 &2106996755 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 370079511}
+--- !u!4 &2141229304 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1749319055}
