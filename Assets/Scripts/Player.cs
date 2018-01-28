@@ -131,7 +131,7 @@ public class Player : MonoBehaviour {
             winScreen.SetActive(true);
         }
 
-        EnemySignal enemy = collision.collider.GetComponent<EnemySignal>();
+        Damage enemy = collision.collider.GetComponent<Damage>();
 
         if (enemy && !isInvincible)
         {
