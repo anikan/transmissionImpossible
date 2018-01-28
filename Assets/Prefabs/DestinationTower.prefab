@@ -35,9 +35,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4340850522843634}
-  - component: {fileID: 114126418201446450}
-  - component: {fileID: 114729880929627950}
-  - component: {fileID: 61231467399207776}
+  - component: {fileID: 114127358739868452}
+  - component: {fileID: 114857318402364278}
+  - component: {fileID: 61272656205717472}
   m_Layer: 0
   m_Name: DestinationTower
   m_TagString: Untagged
@@ -72,7 +72,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &61231467399207776
+--- !u!61 &61272656205717472
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -97,7 +97,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 8.49, y: 0.5}
   m_EdgeRadius: 0
---- !u!114 &114126418201446450
+--- !u!114 &114127358739868452
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollOnStart: 1
---- !u!114 &114729880929627950
+--- !u!114 &114857318402364278
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
