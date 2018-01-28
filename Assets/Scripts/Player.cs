@@ -10,8 +10,9 @@ public class Player : MonoBehaviour {
     public float maxHealth = 5.0f;
     private float health;
 
-    public float timeToUpdateColliders = .1f;
+    public float timeBetweenPulses = .1f;
 
+    //Player trail variables
     public float maxWidth = 1.0f;
     public float minWidth = .1f;
 
@@ -19,6 +20,8 @@ public class Player : MonoBehaviour {
     private float changePerSecond;
 
     public float maxStaticWhileAlive = .5f;
+
+    public float maxScreenShakeAmount = .2f;
 
     public Material staticPlaneMat;
 
@@ -100,6 +103,8 @@ public class Player : MonoBehaviour {
                 yield return null;
             }
 
+            yield return new WaitForSeconds(timeBetweenPulses);
+
             //Grow
             while (GetComponent<TrailRenderer>().widthMultiplier < maxWidth)
             {
@@ -107,7 +112,8 @@ public class Player : MonoBehaviour {
                 yield return null;
             }
 
-            yield return new WaitForSeconds(timeToUpdateColliders);
+            yield return new WaitForSeconds(timeBetweenPulses);
+
         }
 
     }
@@ -122,7 +128,9 @@ public class Player : MonoBehaviour {
             //Play some damage effects!
             //Slow down the pulsing.
             changePerSecond = (health / maxHealth) * maxChangePerSecond;
-   
+
+            StartCoroutine(ScreenShake(enemy.damageValue));
+
             if (health <= 0)
             {
                 //Play death effect, show restart screen.
@@ -145,9 +153,26 @@ public class Player : MonoBehaviour {
                 staticPlaneMat.SetColor("_Color", color);
             }
         }
-
-
     }
 
+    private IEnumerator ScreenShake(float timeToShake)
+    {
+        float timeLeft = timeToShake;
 
+        Vector3 initCameraPos = Camera.main.transform.localPosition;
+
+        while (timeLeft > 0)
+        {
+            timeLeft -= Time.deltaTime;
+
+            float ratioLeft = timeLeft / timeToShake;
+
+            Vector3 shakeDelta = new Vector3(Random.Range(-ratioLeft * maxScreenShakeAmount, ratioLeft * maxScreenShakeAmount), Random.Range(-ratioLeft * maxScreenShakeAmount, ratioLeft * maxScreenShakeAmount), 0.0f);
+
+            Camera.main.transform.localPosition = initCameraPos + shakeDelta;
+
+            yield return null;
+        }
+        Camera.main.transform.localPosition = initCameraPos;
+    }
 }
