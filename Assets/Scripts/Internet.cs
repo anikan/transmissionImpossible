@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Internet : MonoBehaviour {
+public class Internet : EnemySignal {
 
     
     protected enum InternetTypes
