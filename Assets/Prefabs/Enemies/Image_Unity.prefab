@@ -164,9 +164,10 @@ MonoBehaviour:
   type: 1
   state: 0
   speed: 5
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: c634aa5225cbcf04a812ac05dc97bc4d, type: 3}
   isManualDestination: 0
   manualDirection: {x: 0, y: 0, z: 0}
+  shouldOrient: 0
 --- !u!114 &114733015328032170
 MonoBehaviour:
   m_ObjectHideFlags: 1
