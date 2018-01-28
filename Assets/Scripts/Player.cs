@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
+    public bool canMove = false;
+
     public float playerSpeed = 5.0f;
     public float minDistance = .5f;
 
@@ -51,32 +53,36 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        //Process touch
-        if (Input.touchCount > 0 && (Input.GetTouch(0).phase == TouchPhase.Moved || Input.GetTouch(0).phase == TouchPhase.Stationary))
+        if (canMove)
         {
-            Vector2 touchPosition = Input.GetTouch(0).position;
 
-            //Subtracting parent's postion to keep point relative to camera space.
-            Vector3 viewportPoint = Camera.main.ScreenToWorldPoint(touchPosition) - transform.parent.transform.position;
+            //Process touch
+            if (Input.touchCount > 0 && (Input.GetTouch(0).phase == TouchPhase.Moved || Input.GetTouch(0).phase == TouchPhase.Stationary))
+            {
+                Vector2 touchPosition = Input.GetTouch(0).position;
 
-            HandlePositionChange(viewportPoint);
-        }
+                //Subtracting parent's postion to keep point relative to camera space.
+                Vector3 viewportPoint = Camera.main.ScreenToWorldPoint(touchPosition) - transform.parent.transform.position;
 
-        //Process mouse click.
-        else if (Input.GetMouseButton(0))
-        {
-            //Subtracting parent's postion to keep point relative to camera space.
-            Vector3 viewportPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.parent.transform.position;
+                HandlePositionChange(viewportPoint);
+            }
 
-            Vector2 clickPosition = new Vector2(viewportPoint.x, viewportPoint.y);
+            //Process mouse click.
+            else if (Input.GetMouseButton(0))
+            {
+                //Subtracting parent's postion to keep point relative to camera space.
+                Vector3 viewportPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.parent.transform.position;
 
-            HandlePositionChange(clickPosition);
-        }
+                Vector2 clickPosition = new Vector2(viewportPoint.x, viewportPoint.y);
 
-        else
-        {
-           // GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+                HandlePositionChange(clickPosition);
+            }
 
+            else
+            {
+                // GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+
+            }
         }
     }
 
