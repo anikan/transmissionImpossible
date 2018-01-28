@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Email : Internet {
+public class Image : Internet {
 
     private Spawner spawner;
     private SpriteRenderer image;
 
-    //When an email is created
     public override void Start()
     {
         base.Start();
@@ -22,19 +21,18 @@ public class Email : Internet {
         spawner = GetComponentInParent<Spawner>();
         image = GetComponent<SpriteRenderer>();
 
-        type = InternetTypes.email;
+        type = InternetTypes.image;
     }
 
     private void SetSources()
     {
 
-        int imgNum = ChooseSource(spawner.emailIcons.Length);
-        int textNum = ChooseSource(spawner.emailTexts.Length);
+        int imgNum = ChooseSource(spawner.mediaImages.Length);
 
-        Sprite img = spawner.emailIcons[imgNum];
-        string text = spawner.emailTexts[textNum];
+        Sprite img = spawner.mediaImages[imgNum];
 
         image.sprite = img;
     }
+
 
 }
