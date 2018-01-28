@@ -20,8 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4100758704117660}
   - component: {fileID: 212774663765016860}
-  - component: {fileID: 58863038755539148}
-  - component: {fileID: 58442545831063762}
   m_Layer: 0
   m_Name: Outer Circle
   m_TagString: Untagged
@@ -39,7 +37,7 @@ GameObject:
   - component: {fileID: 4937451944393674}
   - component: {fileID: 212496833777684030}
   - component: {fileID: 58971931405196678}
-  - component: {fileID: 58654085024879050}
+  - component: {fileID: 114045330431894812}
   m_Layer: 0
   m_Name: PulseCircle
   m_TagString: Untagged
@@ -113,7 +111,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1876673343799888}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1531098, y: 3.3042517, z: 0}
+  m_LocalPosition: {x: -0.12, y: 3.3042517, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4937451944393674}
@@ -135,51 +133,6 @@ Transform:
   m_Father: {fileID: 4340850522843634}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &58442545831063762
-CircleCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1180399413835776}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 3
---- !u!58 &58654085024879050
-CircleCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1198439618349858}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 3
---- !u!58 &58863038755539148
-CircleCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1180399413835776}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 3
 --- !u!58 &58971931405196678
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -194,7 +147,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3
+  m_Radius: 9
 --- !u!82 &82013651094911508
 AudioSource:
   m_ObjectHideFlags: 1
@@ -275,6 +228,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &114045330431894812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1198439618349858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53df8a050325fb4d91f03e7c1a2aac0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageValue: 1
 --- !u!114 &114055674520439410
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -292,6 +257,7 @@ MonoBehaviour:
   outerFadePulse: {fileID: 1180399413835776}
   pulseColor: {r: 1, g: 0, b: 0, a: 1}
   audioClipIndex: 0
+  moveSpeed: 0.02
 --- !u!212 &212496833777684030
 SpriteRenderer:
   m_ObjectHideFlags: 1
