@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 114491716019380456}
   - component: {fileID: 82142897295077610}
   - component: {fileID: 61594090464633074}
+  - component: {fileID: 114239080583452188}
   m_Layer: 0
   m_Name: Messaging_Messenger
   m_TagString: Untagged
@@ -184,6 +185,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &114239080583452188
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1424505387683132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53df8a050325fb4d91f03e7c1a2aac0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageValue: 1
 --- !u!114 &114491716019380456
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -195,9 +208,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86e89ba84801c124982ec408364e6584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageValue: 1
   type: 3
   speed: 25
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: ad011e81f7923d647a0059ac94183c7d, type: 3}
   debug_text: 
 --- !u!114 &114585168497913660
 MonoBehaviour:

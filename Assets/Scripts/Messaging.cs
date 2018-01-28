@@ -7,6 +7,7 @@ public class Messaging : Internet {
 
     private Spawner spawner;
     private Text textObj;
+    private AudioSource audioSrc;
 
     [SerializeField]
     private string debug_text;
@@ -25,9 +26,11 @@ public class Messaging : Internet {
     {
         spawner = GetComponentInParent<Spawner>();
         textObj = GetComponentInChildren<Text>();
+        audioSrc = GetComponent<AudioSource>();
 
         type = InternetTypes.messaging;
         speed = spawner.messagingSpeed;
+        audioSrc.clip = clip;
     }
 
     private void SetSources()

@@ -18,10 +18,13 @@ public class Spawner : MonoBehaviour {
     [Header("Sources")]
     public string[] emailTexts;
     public Sprite[] emailIcons;
+    public AudioClip[] emailSounds;
     public Sprite[] mediaImages;
+    public AudioClip[] mediaImagesSounds;
     public VideoClip[] mediaVideos; //TODO: Need to figure out what type of object a video is
     public string[] messagingTexts;
     public Sprite[] messagingIcons;
+    public AudioClip[] messagingSounds;
 
     [Header("Properties")]
     public float emailSpeed;

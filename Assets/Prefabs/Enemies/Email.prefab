@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 114095223611220980}
   - component: {fileID: 82343611245564434}
   - component: {fileID: 61150691015289142}
+  - component: {fileID: 114215055793795014}
   m_Layer: 0
   m_Name: Email
   m_TagString: Untagged
@@ -195,9 +196,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7d5c97317901914aa7860f7e9dcb701, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageValue: 1
   type: 0
   speed: 15
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: 0245be46768ceea4286145a067c0ceec, type: 3}
   debug_text: 
 --- !u!114 &114104998271877382
 MonoBehaviour:
@@ -220,6 +222,18 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 2
+--- !u!114 &114215055793795014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1542152587398922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53df8a050325fb4d91f03e7c1a2aac0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageValue: 1
 --- !u!114 &114315656228433010
 MonoBehaviour:
   m_ObjectHideFlags: 1
