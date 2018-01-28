@@ -5608,6 +5608,11 @@ MonoBehaviour:
     bpm: 116
     bpmOffset: 0
     volume: 1
+  - clipName: Sandstorm
+    audioClip: {fileID: 8300000, guid: 318818cdb0a83884fa3247694f47800d, type: 3}
+    bpm: 136
+    bpmOffset: 0
+    volume: 1
 --- !u!114 &114848995500426978
 MonoBehaviour:
   m_ObjectHideFlags: 1
