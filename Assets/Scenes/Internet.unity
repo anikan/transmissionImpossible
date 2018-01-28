@@ -1177,6 +1177,57 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1291160504695874, guid: 0fc5323d50b0f6744a947d54598698b3, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986839773181526, guid: 0fc5323d50b0f6744a947d54598698b3, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.187806
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986839773181526, guid: 0fc5323d50b0f6744a947d54598698b3, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.18110582
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986839773181526, guid: 0fc5323d50b0f6744a947d54598698b3, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.2555291
+      objectReference: {fileID: 0}
+    - target: {fileID: 96659636293937482, guid: 0fc5323d50b0f6744a947d54598698b3,
+        type: 2}
+      propertyPath: m_Parameters.colorGradient.key0.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 96659636293937482, guid: 0fc5323d50b0f6744a947d54598698b3,
+        type: 2}
+      propertyPath: m_Parameters.colorGradient.key0.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 96659636293937482, guid: 0fc5323d50b0f6744a947d54598698b3,
+        type: 2}
+      propertyPath: m_Parameters.colorGradient.key0.b
+      value: 0.2965517
+      objectReference: {fileID: 0}
+    - target: {fileID: 96659636293937482, guid: 0fc5323d50b0f6744a947d54598698b3,
+        type: 2}
+      propertyPath: m_Parameters.colorGradient.key1.g
+      value: 0.9724138
+      objectReference: {fileID: 0}
+    - target: {fileID: 96659636293937482, guid: 0fc5323d50b0f6744a947d54598698b3,
+        type: 2}
+      propertyPath: m_Parameters.colorGradient.key1.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 96659636293937482, guid: 0fc5323d50b0f6744a947d54598698b3,
+        type: 2}
+      propertyPath: m_Parameters.colorGradient.key1.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114784701532461508, guid: 0fc5323d50b0f6744a947d54598698b3,
+        type: 2}
+      propertyPath: maxWidth
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0fc5323d50b0f6744a947d54598698b3, type: 2}
   m_IsPrefabParent: 0
