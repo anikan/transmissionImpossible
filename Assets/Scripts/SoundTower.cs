@@ -41,7 +41,7 @@ public class SoundTower : ScrollingSignal {
         else if (pulsing)
         {
 
-            if (distanceFromStage > SoundManager.instance.activationDistanceFromStage)
+            if (distanceFromStage > SoundManager.instance.activationDistanceFromStage * 2)
             {
                 GameObject.Destroy(gameObject);
             }
