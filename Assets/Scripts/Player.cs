@@ -56,7 +56,8 @@ public class Player : MonoBehaviour {
         {
             Vector2 touchPosition = Input.GetTouch(0).position;
 
-            Vector3 viewportPoint = Camera.main.ScreenToWorldPoint(touchPosition);
+            //Subtracting parent's postion to keep point relative to camera space.
+            Vector3 viewportPoint = Camera.main.ScreenToWorldPoint(touchPosition) - transform.parent.transform.position;
 
             HandlePositionChange(viewportPoint);
         }
@@ -64,7 +65,8 @@ public class Player : MonoBehaviour {
         //Process mouse click.
         else if (Input.GetMouseButton(0))
         {
-            Vector3 viewportPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            //Subtracting parent's postion to keep point relative to camera space.
+            Vector3 viewportPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.parent.transform.position;
 
             Vector2 clickPosition = new Vector2(viewportPoint.x, viewportPoint.y);
 
