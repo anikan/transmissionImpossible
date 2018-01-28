@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class Spawner : MonoBehaviour {
 
@@ -18,7 +19,7 @@ public class Spawner : MonoBehaviour {
     public string[] emailTexts;
     public Sprite[] emailIcons;
     public Sprite[] mediaImages;
-    public Sprite[] mediaVideos; //TODO: Need to figure out what type of object a video is
+    public VideoClip[] mediaVideos; //TODO: Need to figure out what type of object a video is
     public string[] messagingTexts;
     public Sprite[] messagingIcons;
 
