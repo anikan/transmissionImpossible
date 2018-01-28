@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-    public bool canMove = false;
+    private static bool canMove = false;
 
     public float playerSpeed = 5.0f;
     public float minDistance = .5f;
@@ -89,6 +89,11 @@ public class Player : MonoBehaviour {
         }
     }
 
+    public void AllowPlayerMovement(bool allow)
+    {
+        canMove = allow;
+    }
+
     //Given a target position, calculate the velocity needed to approach it.
     void HandlePositionChange(Vector2 targetPosition)
     {
@@ -157,6 +162,7 @@ public class Player : MonoBehaviour {
             hitSource.Play();
 
             StartCoroutine(ScreenShake(enemy.damageValue));
+            Handheld.Vibrate();
 
             if (health > 0)
             {
@@ -174,7 +180,6 @@ public class Player : MonoBehaviour {
             //Death :<
             else
             {
-
                 //Play death effect, show restart screen.
 
                 //Show static and play full sound effect.

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class TrippyButton : MonoBehaviour {
 
-    public float colorChangeDuration = 1.0f;
+    public float colorChangeDuration = 2.0f;
 
     public Color buttonColor
     {
