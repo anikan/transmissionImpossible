@@ -13,7 +13,7 @@ public class SoundTower : ScrollingSignal {
 
     private TowerAudioClip clip;
 
-    private bool pulsing = true;
+    private bool pulsing = false;
 
 	// Use this for initialization
 	protected override void Start ()
@@ -21,7 +21,7 @@ public class SoundTower : ScrollingSignal {
         base.Start();
 
         // TODO: Remove later. Towers shouldn't immediately initialize.
-        InitializeTower();
+        //InitializeTower();
 
 	}
 
@@ -29,8 +29,23 @@ public class SoundTower : ScrollingSignal {
     void Update()
     {
 
-        if (pulsing)
+        float distanceFromStage = Vector3.Distance(transform.position, GameManager.instance.transform.position);
+
+        if (!pulsing && distanceFromStage <= SoundManager.instance.activationDistanceFromStage)
         {
+
+            InitializeTower();
+
+        }
+
+        else if (pulsing)
+        {
+
+            if (distanceFromStage > SoundManager.instance.activationDistanceFromStage)
+            {
+                GameObject.Destroy(gameObject);
+            }
+
             GetComponent<AudioSource>().volume = clip.volume;
         }
 

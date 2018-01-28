@@ -110,8 +110,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1876673343799888}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.12, y: 3.3042517, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.6968067, y: -5.145341, z: -0.7480469}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4937451944393674}
@@ -166,9 +166,9 @@ AudioSource:
   Spatialize: 1
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 0.25
-  MinDistance: 0.4
-  MaxDistance: 5
+  DopplerLevel: 0.3
+  MinDistance: 0.3
+  MaxDistance: 2
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -251,13 +251,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7169131ecb8982a4c8670a6fb303c61d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scrollOnStart: 1
   randomAudioClip: 1
   randomColor: 1
   pulseObject: {fileID: 1198439618349858}
   outerFadePulse: {fileID: 1180399413835776}
   pulseColor: {r: 1, g: 0, b: 0, a: 1}
   audioClipIndex: 0
-  moveSpeed: 0.02
 --- !u!212 &212496833777684030
 SpriteRenderer:
   m_ObjectHideFlags: 1
