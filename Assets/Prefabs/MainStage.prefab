@@ -2557,7 +2557,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1064847455820388}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.02, y: -0.08, z: -0.984375}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4479407421678272}
@@ -5554,57 +5554,57 @@ MonoBehaviour:
     bpmOffset: 0
     volume: 1
   - clipName: Who Likes To Party
-    audioClip: {fileID: 8300000, guid: 849ddb3336e74564b9f58325e4f48ad8, type: 3}
+    audioClip: {fileID: 8300000, guid: 7c247bc529c7d5c4cae513a1eb1e4d65, type: 3}
     bpm: 117
     bpmOffset: 0
     volume: 1
   - clipName: Vegas Glitz
-    audioClip: {fileID: 8300000, guid: 849ddb3336e74564b9f58325e4f48ad8, type: 3}
+    audioClip: {fileID: 8300000, guid: b744e42244df4d84fbb56c6fada95dd7, type: 3}
     bpm: 92
     bpmOffset: 0
     volume: 1
   - clipName: Ether Disco
-    audioClip: {fileID: 8300000, guid: 849ddb3336e74564b9f58325e4f48ad8, type: 3}
+    audioClip: {fileID: 8300000, guid: 00a1b834f829d1641aaedd7e8bf64308, type: 3}
     bpm: 120
     bpmOffset: 0
     volume: 1
   - clipName: Digital Lemonade
-    audioClip: {fileID: 8300000, guid: 849ddb3336e74564b9f58325e4f48ad8, type: 3}
+    audioClip: {fileID: 8300000, guid: 91028036be9b1a540bacded815da4787, type: 3}
     bpm: 120
     bpmOffset: 0
     volume: 1
   - clipName: Super Power Cool Dude
-    audioClip: {fileID: 8300000, guid: 849ddb3336e74564b9f58325e4f48ad8, type: 3}
+    audioClip: {fileID: 8300000, guid: bdfcfa37b958e3b4fa8ccbbbf8e9f1c9, type: 3}
     bpm: 110
     bpmOffset: 0
     volume: 1
   - clipName: Inspired
-    audioClip: {fileID: 8300000, guid: 849ddb3336e74564b9f58325e4f48ad8, type: 3}
+    audioClip: {fileID: 8300000, guid: b096b8c3f5ae7d14bb806760270164b5, type: 3}
     bpm: 120
     bpmOffset: 0
     volume: 1
   - clipName: What Is Love
-    audioClip: {fileID: 8300000, guid: 849ddb3336e74564b9f58325e4f48ad8, type: 3}
+    audioClip: {fileID: 8300000, guid: cc0030695e1992e45b187430329dd036, type: 3}
     bpm: 58
     bpmOffset: 0
     volume: 1
   - clipName: EDM Detection Mode
-    audioClip: {fileID: 8300000, guid: 849ddb3336e74564b9f58325e4f48ad8, type: 3}
+    audioClip: {fileID: 8300000, guid: efb5ac770da64c64cb770501410fe875, type: 3}
     bpm: 128
     bpmOffset: 0
     volume: 1
   - clipName: Son of a Rocket
-    audioClip: {fileID: 8300000, guid: 849ddb3336e74564b9f58325e4f48ad8, type: 3}
+    audioClip: {fileID: 8300000, guid: 7484d7af2683b3140850dec5617c299d, type: 3}
     bpm: 110
     bpmOffset: 0
     volume: 1
   - clipName: Blown Away
-    audioClip: {fileID: 8300000, guid: 849ddb3336e74564b9f58325e4f48ad8, type: 3}
+    audioClip: {fileID: 8300000, guid: 9ec7927298780154797ec3955a8e6717, type: 3}
     bpm: 170
     bpmOffset: 0
     volume: 1
   - clipName: Rocket
-    audioClip: {fileID: 8300000, guid: 849ddb3336e74564b9f58325e4f48ad8, type: 3}
+    audioClip: {fileID: 8300000, guid: 10f9517cae9b7984b8268385aae422c5, type: 3}
     bpm: 116
     bpmOffset: 0
     volume: 1
