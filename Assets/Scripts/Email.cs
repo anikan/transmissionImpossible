@@ -20,6 +20,7 @@ public class Email : Internet {
 
         SetSources();
 
+        OrientSelf();
     }
 
     private void Setup()
