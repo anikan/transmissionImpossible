@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour {
 
     public static GameManager instance;
+    public GameObject player;
 
     public float universalScrollSpeed = 0.02f;
 

@@ -426,6 +426,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 114059133171351694, guid: 8655afd707705cb45a7fe4e186faa3de,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2006715559}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8655afd707705cb45a7fe4e186faa3de, type: 2}
   m_IsPrefabParent: 0
@@ -2082,6 +2087,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageValue: 1
+--- !u!1 &2006715559 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1140225650332570, guid: 0fc5323d50b0f6744a947d54598698b3,
+    type: 2}
+  m_PrefabInternal: {fileID: 910491700}
 --- !u!4 &2079451175 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4340850522843634, guid: e15bfc662aad6154a9f5d7d005a513eb,
