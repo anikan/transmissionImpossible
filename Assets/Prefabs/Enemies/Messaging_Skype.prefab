@@ -195,9 +195,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86e89ba84801c124982ec408364e6584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageValue: 1
   type: 3
+  state: 0
   speed: 25
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: 1d181c921d4e21f41b08035ba87c4697, type: 3}
+  isManualDestination: 0
+  manualDirection: {x: 0, y: 0, z: 0}
+  shouldOrient: 0
   debug_text: 
 --- !u!114 &114614497798513202
 MonoBehaviour:

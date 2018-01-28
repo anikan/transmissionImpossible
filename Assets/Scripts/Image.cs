@@ -5,6 +5,7 @@ using UnityEngine;
 public class Image : Internet {
 
     private Spawner spawner;
+    private AudioSource audioSrc;
 
     public override void Start()
     {
@@ -16,9 +17,11 @@ public class Image : Internet {
     private void Setup()
     {
         spawner = GetComponentInParent<Spawner>();
+        audioSrc = GetComponent<AudioSource>();
 
         type = InternetTypes.image;
         speed = spawner.imageSpeed;
+        audioSrc.clip = clip;
     }
 
 

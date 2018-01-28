@@ -159,9 +159,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d758e5d69cca17488a64dfb4e50aa53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageValue: 1
   type: 1
+  state: 0
   speed: 5
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: 1ada97839d260384dbdb3771b1b89afb, type: 3}
+  isManualDestination: 0
+  manualDirection: {x: 0, y: 0, z: 0}
+  shouldOrient: 0
 --- !u!212 &212999966635586190
 SpriteRenderer:
   m_ObjectHideFlags: 1
