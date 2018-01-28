@@ -210,8 +210,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageValue: 1
   type: 3
+  state: 0
   speed: 25
   clip: {fileID: 8300000, guid: ad011e81f7923d647a0059ac94183c7d, type: 3}
+  isManualDestination: 0
+  manualDirection: {x: 0, y: 0, z: 0}
+  shouldOrient: 0
   debug_text: 
 --- !u!114 &114585168497913660
 MonoBehaviour:
