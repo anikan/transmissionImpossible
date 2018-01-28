@@ -19,6 +19,8 @@ public class Internet : MonoBehaviour {
     protected InternetTypes type;
     [SerializeField]
     protected float speed;
+    [SerializeField]
+    protected AudioClip clip;
 
     private Vector3 startPosition;
     private Vector3 destination;

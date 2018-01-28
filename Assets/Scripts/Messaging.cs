@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Messaging : Internet {
 
     private Spawner spawner;
-    private SpriteRenderer image;
+    private Text textObj;
+
+    [SerializeField]
+    private string debug_text;
 
     //When an instant message is created
     public override void Start()
@@ -20,21 +24,17 @@ public class Messaging : Internet {
     private void Setup()
     {
         spawner = GetComponentInParent<Spawner>();
-        image = GetComponent<SpriteRenderer>();
+        textObj = GetComponentInChildren<Text>();
 
         type = InternetTypes.messaging;
+        speed = spawner.messagingSpeed;
     }
 
     private void SetSources()
     {
-
-        int imgNum = ChooseSource(spawner.messagingIcons.Length);
         int textNum = ChooseSource(spawner.messagingTexts.Length);
-
-        Sprite img = spawner.messagingIcons[imgNum];
-        string text = spawner.messagingTexts[textNum];
-
-        image.sprite = img;
+        debug_text = spawner.messagingTexts[textNum];
+        textObj.text = debug_text;
     }
 
 }
