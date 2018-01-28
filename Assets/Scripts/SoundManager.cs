@@ -33,6 +33,7 @@ public class SoundManager : MonoBehaviour {
     public float pulseMaxRadius = 1.0f;
     public float pulseMinRadius = 0.1f;
     public float outerPulseDist = 1.0f;
+    public float activationDistanceFromStage = 8.0f;
 
     [SerializeField] public List<TowerAudioClip> allClips;
 
