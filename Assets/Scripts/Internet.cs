@@ -31,6 +31,14 @@ public class Internet : EnemySignal {
 
     public virtual void Start()
     {
+        SetDestination();
+
+        //Get the current position of the enemy
+        startPosition = transform.position;
+    }
+
+    private void SetDestination()
+    {
         if (isManualDestination)
         {
             destination = manualDirection;
@@ -40,15 +48,13 @@ public class Internet : EnemySignal {
             //Update the location of the player
             destination = GetPlayerLocation();
         }
-
-        //Get the current position of the enemy
-        startPosition = transform.position;
     }
 
     //Travel across the screen in the direction set
     public void Travel()
     {
-        destination = GetPlayerLocation();
+
+        SetDestination();
 
         //Go toward the player!!!!!! 
         Vector3 direction = (destination - startPosition).normalized;
