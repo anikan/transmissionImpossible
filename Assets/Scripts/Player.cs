@@ -6,10 +6,16 @@ public class Player : MonoBehaviour {
 
     public float playerSpeed = 5.0f;
     public float minDistance = .5f;
+    public float health = 5.0f;
+    public float timeToUpdateColliders = .1f;
+
+    public float maxWidth = 1.0f;
+    public float minWidth = .1f;
+    public float changePerSecond = 5.0f;
 
 	// Use this for initialization
 	void Start () {
-		
+        StartCoroutine(UpdateTrails());
 	}
 	
 	// Update is called once per frame
@@ -57,7 +63,48 @@ public class Player : MonoBehaviour {
         else
         {
             GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        }
+    }
+
+    IEnumerator UpdateTrails()
+    {
+        while (health > 0)
+        {
+            //Shrink
+            while (GetComponent<TrailRenderer>().widthMultiplier > minWidth)
+            {
+                GetComponent<TrailRenderer>().widthMultiplier -= changePerSecond * Time.deltaTime;
+                yield return null;
+            }
+
+            //Grow
+            while (GetComponent<TrailRenderer>().widthMultiplier < maxWidth)
+            {
+                GetComponent<TrailRenderer>().widthMultiplier += changePerSecond * Time.deltaTime;
+                yield return null;
+            }
+
+            yield return new WaitForSeconds(timeToUpdateColliders);
+        }
+
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        EnemySignal enemy = collision.collider.GetComponent<EnemySignal>();
+
+        if (enemy)
+        {
+            health -= enemy.damageValue;
+            //Play some damage effects!
+        }
+
+        if (health <= 0)
+        {
+            //Play death effect, show restart screen.
 
         }
     }
+
+
 }
