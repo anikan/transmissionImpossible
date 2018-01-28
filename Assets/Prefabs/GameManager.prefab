@@ -11,6 +11,22 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1459974562131266}
   m_IsPrefabParent: 1
+--- !u!1 &1439771822105776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4214310078343430}
+  - component: {fileID: 114143017461460410}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1459974562131266
 GameObject:
   m_ObjectHideFlags: 0
@@ -27,6 +43,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4214310078343430
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1439771822105776}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.4839873, y: 1.6774776, z: -9.306036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4915628414662796}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4915628414662796
 Transform:
   m_ObjectHideFlags: 1
@@ -36,7 +65,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.31316, y: -1.3029262, z: -0.5625}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 4214310078343430}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -53,3 +83,108 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   universalScrollSpeed: 1.5
+--- !u!114 &114143017461460410
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1439771822105776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0667f76edb7f2a47bb95c0e97ac5d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pulseMaxRadius: 0.1
+  pulseMinRadius: 0.026
+  outerPulseDist: 0.3
+  allClips:
+  - clipName: Special Spotlight
+    audioClip: {fileID: 8300000, guid: 9952c00e555669d4b88736ff51057574, type: 3}
+    bpm: 126
+    bpmOffset: 0
+    volume: 1
+  - clipName: Electro Cabello
+    audioClip: {fileID: 8300000, guid: fb57d380cd5d9164396c2191901b38ab, type: 3}
+    bpm: 117
+    bpmOffset: 0
+    volume: 1
+  - clipName: Whiskey on the Mississippi
+    audioClip: {fileID: 8300000, guid: fa7a030530100ae46847e5e92215c180, type: 3}
+    bpm: 90
+    bpmOffset: 0
+    volume: 1
+  - clipName: Ouroboros
+    audioClip: {fileID: 8300000, guid: 5d24aa2ed0d2eab4292ffbf78bb565de, type: 3}
+    bpm: 130
+    bpmOffset: 0
+    volume: 1
+  - clipName: Severe Tire Damage
+    audioClip: {fileID: 8300000, guid: f8aa371bf8170404f90db9e854d1f4fb, type: 3}
+    bpm: 74
+    bpmOffset: 0
+    volume: 1
+  - clipName: Surf Shimmy
+    audioClip: {fileID: 8300000, guid: 6193b7632085fae46bd96f278e01e21e, type: 3}
+    bpm: 170
+    bpmOffset: 0
+    volume: 1
+  - clipName: Cyborg Ninja
+    audioClip: {fileID: 8300000, guid: 8b532dfdb832f41438bdda912555653f, type: 3}
+    bpm: 160
+    bpmOffset: 0
+    volume: 0.7
+  - clipName: Jingle Bells
+    audioClip: {fileID: 8300000, guid: 818498e04763f474a82c2eb33c2c6157, type: 3}
+    bpm: 120
+    bpmOffset: 0
+    volume: 1
+  - clipName: Egmont Overture Finale
+    audioClip: {fileID: 8300000, guid: 5134f33bd1dbe1d46b05a5edda7b0d7a, type: 3}
+    bpm: 150
+    bpmOffset: 0
+    volume: 0.7
+  - clipName: Robobozo
+    audioClip: {fileID: 8300000, guid: 4f204db331ac2844a9619cdc02aa6778, type: 3}
+    bpm: 95
+    bpmOffset: 0
+    volume: 1
+  - clipName: Grim Idol
+    audioClip: {fileID: 8300000, guid: cf46693c41d117a48ace4cc207e8e0fe, type: 3}
+    bpm: 140
+    bpmOffset: 0
+    volume: 1
+  - clipName: Got Funk
+    audioClip: {fileID: 8300000, guid: 7db2f992ec28bec48a22fa19dc0a2fb5, type: 3}
+    bpm: 98
+    bpmOffset: 0
+    volume: 1
+  - clipName: Show Your Moves
+    audioClip: {fileID: 8300000, guid: 27cfb116771d6ff46af458fbc6e2c7c1, type: 3}
+    bpm: 95
+    bpmOffset: 136
+    volume: 1
+  - clipName: Summon the Rawk
+    audioClip: {fileID: 8300000, guid: 471941246b274b24fa34e3e4c0a1aca8, type: 3}
+    bpm: 209
+    bpmOffset: 0
+    volume: 1
+  - clipName: Noise Attack
+    audioClip: {fileID: 8300000, guid: 674ff64bd6552ce438a924039a4d015e, type: 3}
+    bpm: 65
+    bpmOffset: 0
+    volume: 1
+  - clipName: One-eyed Maestro
+    audioClip: {fileID: 8300000, guid: f833f29db3bafe94495f56104c0afd17, type: 3}
+    bpm: 102
+    bpmOffset: 0
+    volume: 1
+  - clipName: Mischief Maker
+    audioClip: {fileID: 8300000, guid: 39649ed4dc9ac7c4cbe2b93cf47ee830, type: 3}
+    bpm: 125
+    bpmOffset: 0
+    volume: 1
+  - clipName: Fiddles McGinty
+    audioClip: {fileID: 8300000, guid: 849ddb3336e74564b9f58325e4f48ad8, type: 3}
+    bpm: 174
+    bpmOffset: 0
+    volume: 1
