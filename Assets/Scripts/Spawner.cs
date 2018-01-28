@@ -8,11 +8,11 @@ public class Spawner : MonoBehaviour {
     [SerializeField]
     private Email emailPrefab;
     [SerializeField]
-    private Image imagePrefab;
+    private Image[] imagePrefabs;
     [SerializeField]
-    private Video videoPrefab;
+    private Video[] videoPrefabs;
     [SerializeField]
-    private Messaging messagingPrefab;
+    private Messaging[] messagingPrefabs;
 
     [Header("Sources")]
     public string[] emailTexts;
@@ -22,24 +22,10 @@ public class Spawner : MonoBehaviour {
     public string[] messagingTexts;
     public Sprite[] messagingIcons;
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            Debug.Log("Create Email!");
-        }
-        else if (Input.GetKeyDown(KeyCode.B))
-        {
-            Debug.Log("Create Media/Image!");
-        }
-        else if (Input.GetKeyDown(KeyCode.C))
-        {
-            Debug.Log("Create Media/Video!");
-        }
-        else if (Input.GetKeyDown(KeyCode.D))
-        {
-            Debug.Log("Create Instant Messaging!");
-        }
-    }
+    [Header("Properties")]
+    public float emailSpeed;
+    public float imageSpeed;
+    public float videoSpeed;
+    public float messagingSpeed;
+
 }
