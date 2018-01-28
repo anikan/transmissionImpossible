@@ -51,8 +51,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0667f76edb7f2a47bb95c0e97ac5d18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pulseMaxRadius: 0.15
-  pulseMinRadius: 0.05
+  pulseMaxRadius: 0.1
+  pulseMinRadius: 0.026
   outerPulseDist: 0.3
   allClips:
   - clipName: Special Spotlight
@@ -103,5 +103,45 @@ MonoBehaviour:
   - clipName: Robobozo
     audioClip: {fileID: 8300000, guid: 4f204db331ac2844a9619cdc02aa6778, type: 3}
     bpm: 95
+    bpmOffset: 0
+    volume: 1
+  - clipName: Grim Idol
+    audioClip: {fileID: 8300000, guid: cf46693c41d117a48ace4cc207e8e0fe, type: 3}
+    bpm: 140
+    bpmOffset: 0
+    volume: 1
+  - clipName: Got Funk
+    audioClip: {fileID: 8300000, guid: 7db2f992ec28bec48a22fa19dc0a2fb5, type: 3}
+    bpm: 98
+    bpmOffset: 0
+    volume: 1
+  - clipName: Show Your Moves
+    audioClip: {fileID: 8300000, guid: 27cfb116771d6ff46af458fbc6e2c7c1, type: 3}
+    bpm: 95
+    bpmOffset: 136
+    volume: 1
+  - clipName: Summon the Rawk
+    audioClip: {fileID: 8300000, guid: 471941246b274b24fa34e3e4c0a1aca8, type: 3}
+    bpm: 209
+    bpmOffset: 0
+    volume: 1
+  - clipName: Noise Attack
+    audioClip: {fileID: 8300000, guid: 674ff64bd6552ce438a924039a4d015e, type: 3}
+    bpm: 65
+    bpmOffset: 0
+    volume: 1
+  - clipName: One-eyed Maestro
+    audioClip: {fileID: 8300000, guid: f833f29db3bafe94495f56104c0afd17, type: 3}
+    bpm: 102
+    bpmOffset: 0
+    volume: 1
+  - clipName: Mischief Maker
+    audioClip: {fileID: 8300000, guid: 39649ed4dc9ac7c4cbe2b93cf47ee830, type: 3}
+    bpm: 125
+    bpmOffset: 0
+    volume: 1
+  - clipName: Fiddles McGinty
+    audioClip: {fileID: 8300000, guid: 849ddb3336e74564b9f58325e4f48ad8, type: 3}
+    bpm: 174
     bpmOffset: 0
     volume: 1
