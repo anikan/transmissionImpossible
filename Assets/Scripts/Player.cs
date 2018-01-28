@@ -30,9 +30,10 @@ public class Player : MonoBehaviour {
     public Material staticPlaneMat;
 
     public GameObject gameOverScreen;
+    public GameObject winScreen;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 
         health = maxHealth;
         changePerSecond = maxChangePerSecond;
@@ -124,6 +125,12 @@ public class Player : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Destination dest = collision.collider.GetComponent<Destination>();
+        if (dest)
+        {
+            winScreen.SetActive(true);
+        }
+
         EnemySignal enemy = collision.collider.GetComponent<EnemySignal>();
 
         if (enemy && !isInvincible)

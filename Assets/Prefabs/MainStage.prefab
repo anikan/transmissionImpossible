@@ -1746,8 +1746,12 @@ MonoBehaviour:
   maxChangePerSecond: 5
   maxStaticWhileAlive: 0.5
   maxScreenShakeAmount: 0.2
+  maxInvincibleTime: 1
+  invincibleBlinkTime: 0.5
+  isInvincible: 0
   staticPlaneMat: {fileID: 2100000, guid: 84efc0d6405e67b4495c92483710094f, type: 2}
   gameOverScreen: {fileID: 1759503543920294}
+  winScreen: {fileID: 1744781406669758}
 --- !u!114 &114807977707374958
 MonoBehaviour:
   m_ObjectHideFlags: 1

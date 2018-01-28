@@ -46,7 +46,6 @@ public class ScrollingSignal : MonoBehaviour {
 
             if (isScrolling)
             {
-                Debug.Log("Scrolling");
                 Vector3 pos = this.transform.position;
                 pos.y -= GameManager.instance.universalScrollSpeed;
                 transform.position = pos;
