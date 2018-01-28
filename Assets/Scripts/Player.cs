@@ -23,12 +23,17 @@ public class Player : MonoBehaviour {
 
     public float maxScreenShakeAmount = .2f;
 
+    public float maxInvincibleTime = 1.0f;
+    public float invincibleBlinkTime = .5f;
+    public bool isInvincible = false;
+
     public Material staticPlaneMat;
 
     public GameObject gameOverScreen;
+    public GameObject winScreen;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 
         health = maxHealth;
         changePerSecond = maxChangePerSecond;
@@ -120,10 +125,19 @@ public class Player : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Destination dest = collision.collider.GetComponent<Destination>();
+        if (dest)
+        {
+            winScreen.SetActive(true);
+        }
+
         EnemySignal enemy = collision.collider.GetComponent<EnemySignal>();
 
-        if (enemy)
+        if (enemy && !isInvincible)
         {
+            //Disabled in InvincibleTime coroutine. 
+            isInvincible = true;
+
             health -= enemy.damageValue;
             //Play some damage effects!
             //Slow down the pulsing.
@@ -131,25 +145,7 @@ public class Player : MonoBehaviour {
 
             StartCoroutine(ScreenShake(enemy.damageValue));
 
-            if (health <= 0)
-            {
-                //Play death effect, show restart screen.
-
-                //Show static and play full sound effect.
-                Color color = staticPlaneMat.GetColor("_Color");
-
-                color.a = 1;
-                
-                GetComponent<AudioSource>().volume = 1;
-         
-
-                staticPlaneMat.SetColor("_Color", color);
-
-                gameOverScreen.SetActive(true);
-
-            }
-
-            else
+            if (health > 0)
             {
                 //Set the static to be less transparent and slightly louder.
                 Color color = staticPlaneMat.GetColor("_Color");
@@ -158,6 +154,27 @@ public class Player : MonoBehaviour {
                 GetComponent<AudioSource>().volume = (1 - (health / maxHealth)) * maxStaticWhileAlive;
 
                 staticPlaneMat.SetColor("_Color", color);
+
+                StartCoroutine(InvincibleTime());
+            }
+
+            //Death :<
+            else
+            {
+
+                //Play death effect, show restart screen.
+
+                //Show static and play full sound effect.
+                Color color = staticPlaneMat.GetColor("_Color");
+
+                color.a = 1;
+
+                GetComponent<AudioSource>().volume = 1;
+
+
+                staticPlaneMat.SetColor("_Color", color);
+
+                gameOverScreen.SetActive(true);
             }
         }
     }
@@ -181,5 +198,29 @@ public class Player : MonoBehaviour {
             yield return null;
         }
         Camera.main.transform.localPosition = initCameraPos;
+    }
+
+    private IEnumerator InvincibleTime()
+    {
+        float timeLeft = maxInvincibleTime;
+        float timeToSwitchVisibility = invincibleBlinkTime;
+
+        while (timeLeft > 0)
+        {
+            timeLeft -= Time.deltaTime;
+            timeToSwitchVisibility -= Time.deltaTime;
+
+            if (timeToSwitchVisibility <= 0)
+            {
+                GetComponent<Renderer>().enabled = !GetComponent<Renderer>().enabled;
+                timeToSwitchVisibility = invincibleBlinkTime;
+            }
+
+            yield return null;
+        }
+
+        isInvincible = false;
+        GetComponent<Renderer>().enabled = true;
+
     }
 }
