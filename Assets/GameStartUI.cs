@@ -4,8 +4,26 @@ using UnityEngine;
 
 public class GameStartUI : MonoBehaviour {
 
+    public static bool shownOnce = false;
+
     public GameObject gameStartCanvas;
     public GameObject levelSelectCanvas;
+
+    void Awake()
+    {
+
+        if (!shownOnce)
+        {
+            shownOnce = true;
+            gameStartCanvas.SetActive(true);
+        }
+        else
+        {
+            gameStartCanvas.SetActive(false);
+            levelSelectCanvas.SetActive(true);
+        }
+
+    }
 
 	// Use this for initialization
 	void Start () {
