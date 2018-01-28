@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemySignal : MonoBehaviour {
+public class Damage : MonoBehaviour {
 
     public float damageValue = 1.0f;
 
