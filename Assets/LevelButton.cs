@@ -6,8 +6,7 @@ using UnityEngine.SceneManagement;
 public class LevelButton : MonoBehaviour {
 
     public string sceneName;
-
-
+    public string levelName = "<Level Name>";
 
 	// Use this for initialization
 	void Start () {
@@ -21,6 +20,9 @@ public class LevelButton : MonoBehaviour {
 
     public void LoadLevel()
     {
-        SceneManager.LoadScene(sceneName);
+
+        GameObject newLevelUI = GameObject.Instantiate(GetComponentInParent<LevelSelectUI>().levelStartPrefab) as GameObject;
+        newLevelUI.GetComponentInChildren<LevelStartUI>().InitializeLevelStartUI(sceneName, levelName);
+        GetComponentInParent<LevelSelectUI>().gameObject.SetActive(false);
     }
 }

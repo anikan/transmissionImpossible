@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SendSignalButton : MonoBehaviour {
 
@@ -19,10 +20,9 @@ public class SendSignalButton : MonoBehaviour {
     public void StartLevel()
     {
 
-
-        GameManager.instance.player.GetComponent<Player>().canMove = true;
-        ScrollingSignal.isScrolling = true;
-        UICanvas.SetActive(false);
+        string sceneToLoad = GetComponentInParent<LevelStartUI>().sceneName;
+        GameManager.instance.player.GetComponent<Player>().AllowPlayerMovement(true);
+        SceneManager.LoadScene(sceneToLoad);
 
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-    public bool canMove = false;
+    private static bool canMove = false;
 
     public float playerSpeed = 5.0f;
     public float minDistance = .5f;
@@ -87,6 +87,11 @@ public class Player : MonoBehaviour {
 
             }
         }
+    }
+
+    public void AllowPlayerMovement(bool allow)
+    {
+        canMove = allow;
     }
 
     //Given a target position, calculate the velocity needed to approach it.

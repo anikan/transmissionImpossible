@@ -12,6 +12,15 @@ public class GameStartUI : MonoBehaviour {
     void Awake()
     {
 
+
+
+    }
+
+	// Use this for initialization
+	void Start () {
+
+        GameManager.instance.player.GetComponent<Player>().AllowPlayerMovement(false);
+
         if (!shownOnce)
         {
             shownOnce = true;
@@ -25,13 +34,8 @@ public class GameStartUI : MonoBehaviour {
 
     }
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    // Update is called once per frame
+    void Update () {
 		
 	}
 

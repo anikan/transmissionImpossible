@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 223444002096089304}
   - component: {fileID: 114457268683354350}
   - component: {fileID: 114365318093035456}
+  - component: {fileID: 114780628324228754}
   m_Layer: 5
   m_Name: LevelStart
   m_TagString: Untagged
@@ -422,6 +423,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UICanvas: {fileID: 1568296269240480}
+--- !u!114 &114780628324228754
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1568296269240480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c03c6e75d37a3742809998ee2fca8fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: 
+  levelName: 
 --- !u!114 &114867072967611308
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -7,7 +7,7 @@ public class ScrollingSignal : MonoBehaviour {
     public static bool isScrolling = false;
     private bool startedScroll = false;
 
-    private bool scrollOnStart = false;
+    private bool scrollOnStart = true;
 
 	// Use this for initialization
 	protected virtual void Start () {
