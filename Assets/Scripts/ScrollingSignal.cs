@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class ScrollingSignal : MonoBehaviour {
 
-    protected bool isScrolling = true;
+    public static bool isScrolling = false;
     private bool startedScroll = false;
-    public bool scrollOnStart = true;
+
+    private bool scrollOnStart = false;
 
 	// Use this for initialization
 	protected virtual void Start () {
@@ -19,7 +20,12 @@ public class ScrollingSignal : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	protected virtual void Update () {
+
+        if (isScrolling && !startedScroll)
+        {
+            StartScroll();
+        }
 		
 	}
 
@@ -30,6 +36,7 @@ public class ScrollingSignal : MonoBehaviour {
 
     public void StartScroll()
     {
+
         if (!startedScroll)
         {
             StartCoroutine(ScrollDown());
