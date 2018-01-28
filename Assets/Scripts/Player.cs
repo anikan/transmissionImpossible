@@ -34,6 +34,9 @@ public class Player : MonoBehaviour {
     public GameObject gameOverScreen;
     public GameObject winScreen;
 
+    public AudioSource staticSource;
+    public AudioSource hitSource;
+
     // Use this for initialization
     void Start () {
 
@@ -151,6 +154,8 @@ public class Player : MonoBehaviour {
             //Slow down the pulsing.
             changePerSecond = (health / maxHealth) * maxChangePerSecond;
 
+            hitSource.Play();
+
             StartCoroutine(ScreenShake(enemy.damageValue));
 
             if (health > 0)
@@ -159,7 +164,7 @@ public class Player : MonoBehaviour {
                 Color color = staticPlaneMat.GetColor("_Color");
 
                 color.a = (1 - (health / maxHealth)) * maxStaticWhileAlive;
-                GetComponent<AudioSource>().volume = (1 - (health / maxHealth)) * maxStaticWhileAlive;
+                staticSource.volume = (1 - (health / maxHealth)) * maxStaticWhileAlive;
 
                 staticPlaneMat.SetColor("_Color", color);
 
@@ -177,8 +182,7 @@ public class Player : MonoBehaviour {
 
                 color.a = 1;
 
-                GetComponent<AudioSource>().volume = 1;
-
+                staticSource.volume = 1;
 
                 staticPlaneMat.SetColor("_Color", color);
 
