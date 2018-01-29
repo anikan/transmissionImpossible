@@ -111,7 +111,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1876673343799888}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.64, y: -3.19, z: -0.7480469}
+  m_LocalPosition: {x: -2.8168068, y: -8.745341, z: -0.7480469}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4937451944393674}
@@ -127,7 +127,7 @@ Transform:
   m_GameObject: {fileID: 1198439618349858}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1}
-  m_LocalScale: {x: 0.08, y: 0.08, z: 0.08}
+  m_LocalScale: {x: 0.06, y: 0.06, z: 0.06}
   m_Children:
   - {fileID: 4289391017838908}
   m_Father: {fileID: 4340850522843634}
@@ -257,7 +257,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7169131ecb8982a4c8670a6fb303c61d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollOnStart: 1
   randomAudioClip: 1
   randomColor: 1
   pulseObject: {fileID: 1198439618349858}

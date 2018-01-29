@@ -20,3 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AudioLevel.unity
     guid: a07e18dfdfcc4a04296b1cad63686cf3
+  - enabled: 1
+    path: Assets/Scenes/InternetLevel.unity
+    guid: dd4d2a2d5901b524e9c8e8a2a1c78b42
