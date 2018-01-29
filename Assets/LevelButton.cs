@@ -22,6 +22,7 @@ public class LevelButton : MonoBehaviour {
     {
 
         GameObject newLevelUI = GameObject.Instantiate(GetComponentInParent<LevelSelectUI>().levelStartPrefab) as GameObject;
+        newLevelUI.SetActive(true);
         newLevelUI.GetComponentInChildren<LevelStartUI>().InitializeLevelStartUI(sceneName, levelName);
         GetComponentInParent<LevelSelectUI>().gameObject.SetActive(false);
     }

@@ -20,7 +20,7 @@ public class NextLevel : MonoBehaviour {
 
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
 
-        int allSceneCount = SceneManager.GetAllScenes().Length;
+        int allSceneCount = SceneManager.sceneCount;
         int numNonMenuScenes = allSceneCount - 1;
 
         int sceneToLoad = 1;

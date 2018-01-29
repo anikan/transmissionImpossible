@@ -9,6 +9,8 @@ public class LevelStartUI : MonoBehaviour {
     public string sceneName;
     public string levelName;
 
+    public Text levelText;
+
 
 	// Use this for initialization
 	void Start () {
@@ -25,5 +27,6 @@ public class LevelStartUI : MonoBehaviour {
 
         this.sceneName = sceneName;
         this.levelName = levelName;
+        levelText.text = levelName;
     }
 }

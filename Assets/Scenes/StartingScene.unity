@@ -372,23 +372,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c1894046403780b4293aca782c2fa131, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &1561821565 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114204737360553384, guid: 51a659c0fcce49240b71856159ba47b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 2048256655}
-  m_Script: {fileID: 11500000, guid: 159e9918c9ee2d645ba4f89f9bb50525, type: 3}
 --- !u!1 &1617925439 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1539192812850814, guid: 689109a358d044a4f8193e0b02145ac7,
     type: 2}
   m_PrefabInternal: {fileID: 860520976}
---- !u!114 &1618813509 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114441050404339274, guid: 51a659c0fcce49240b71856159ba47b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 2048256655}
-  m_Script: {fileID: 11500000, guid: 159e9918c9ee2d645ba4f89f9bb50525, type: 3}
 --- !u!1001 &2048256655
 Prefab:
   m_ObjectHideFlags: 0
@@ -499,36 +487,6 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114352617945519888, guid: 51a659c0fcce49240b71856159ba47b4,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1618813509}
-    - target: {fileID: 114352617945519888, guid: 51a659c0fcce49240b71856159ba47b4,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadLevel
-      objectReference: {fileID: 0}
-    - target: {fileID: 114956787998597970, guid: 51a659c0fcce49240b71856159ba47b4,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1561821565}
-    - target: {fileID: 114956787998597970, guid: 51a659c0fcce49240b71856159ba47b4,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadLevel
-      objectReference: {fileID: 0}
-    - target: {fileID: 114011336543509370, guid: 51a659c0fcce49240b71856159ba47b4,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 2048256658}
-    - target: {fileID: 114011336543509370, guid: 51a659c0fcce49240b71856159ba47b4,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadLevel
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 51a659c0fcce49240b71856159ba47b4, type: 2}
   m_IsPrefabParent: 0
@@ -537,22 +495,3 @@ GameObject:
   m_PrefabParentObject: {fileID: 1434665984316074, guid: 51a659c0fcce49240b71856159ba47b4,
     type: 2}
   m_PrefabInternal: {fileID: 2048256655}
---- !u!114 &2048256658 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114178397262221360, guid: 51a659c0fcce49240b71856159ba47b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 2048256655}
-  m_Script: {fileID: 11500000, guid: 159e9918c9ee2d645ba4f89f9bb50525, type: 3}
---- !u!114 &2048256662
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2048256656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8a1da60987bb9744b2838a71cd9993d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelStartPrefab: {fileID: 1568296269240480, guid: c1894046403780b4293aca782c2fa131,
-    type: 2}
