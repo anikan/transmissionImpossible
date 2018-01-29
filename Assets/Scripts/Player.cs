@@ -142,7 +142,7 @@ public class Player : MonoBehaviour {
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Destination dest = collision.collider.GetComponent<Destination>();
-        if (dest)
+        if (dest && health > 0)
         {
             winScreen.SetActive(true);
         }
