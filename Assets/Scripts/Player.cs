@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-    private static bool canMove = false;
+    private static bool canMove = true;
 
     public float playerSpeed = 5.0f;
     public float minDistance = .5f;
