@@ -46,7 +46,7 @@ public class ZigzagSignal : MonoBehaviour {
 
     IEnumerator HorizontalZigzag()
     {
-        float currentXDelta = 0.0f;
+        float currentXDelta = initDelta;
 
         while (true)
         {
@@ -69,7 +69,7 @@ public class ZigzagSignal : MonoBehaviour {
 
     IEnumerator VerticalZigzag()
     {
-        float currentYDelta = 0.0f;
+        float currentYDelta = initDelta;
 
         while (true)
         {
