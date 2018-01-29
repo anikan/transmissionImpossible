@@ -162,7 +162,10 @@ public class Player : MonoBehaviour {
             hitSource.Play();
 
             StartCoroutine(ScreenShake(enemy.damageValue));
+
+#if UNITY_ANDROID
             Handheld.Vibrate();
+#endif
 
             if (health > 0)
             {
