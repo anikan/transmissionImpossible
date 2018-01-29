@@ -693,7 +693,7 @@ GameObject:
   - component: {fileID: 114061614719502966}
   - component: {fileID: 114665923464035410}
   - component: {fileID: 114796073140292726}
-  - component: {fileID: 114563117514981242}
+  - component: {fileID: 114253373740603268}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -5853,6 +5853,17 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+--- !u!114 &114253373740603268
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1305456993450898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a11da4857ea2c2d40a502c3822e39af3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114257206320554332
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6177,17 +6188,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47281099d40723c45a7fc9fca290f758, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114563117514981242
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1305456993450898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46aabe38ba0ccda418360a1656f7b089, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114628713396702424
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6260,8 +6260,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114563117514981242}
-        m_MethodName: GoToNextLevel
+      - m_Target: {fileID: 114253373740603268}
+        m_MethodName: GoToMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
