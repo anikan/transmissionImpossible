@@ -113,7 +113,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &388260894
+--- !u!1001 &548586949
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -122,15 +122,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4089629943863504, guid: 0fc5323d50b0f6744a947d54598698b3, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.02
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4089629943863504, guid: 0fc5323d50b0f6744a947d54598698b3, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.08
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4089629943863504, guid: 0fc5323d50b0f6744a947d54598698b3, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -0.984375
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4089629943863504, guid: 0fc5323d50b0f6744a947d54598698b3, type: 2}
       propertyPath: m_LocalRotation.x
@@ -150,10 +150,6 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4089629943863504, guid: 0fc5323d50b0f6744a947d54598698b3, type: 2}
       propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1853604964820200, guid: 0fc5323d50b0f6744a947d54598698b3, type: 2}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -486,10 +482,6 @@ Prefab:
     - target: {fileID: 1434665984316074, guid: 51a659c0fcce49240b71856159ba47b4, type: 2}
       propertyPath: m_Name
       value: LevelSelectUI
-      objectReference: {fileID: 0}
-    - target: {fileID: 1434665984316074, guid: 51a659c0fcce49240b71856159ba47b4, type: 2}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 51a659c0fcce49240b71856159ba47b4, type: 2}

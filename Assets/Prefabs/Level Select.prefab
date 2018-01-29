@@ -154,7 +154,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1446270602878204
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,7 +1055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 159e9918c9ee2d645ba4f89f9bb50525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: FinalScene
+  sceneName: Internet
   levelName: game.zip
 --- !u!114 &114788461552776592
 MonoBehaviour:
